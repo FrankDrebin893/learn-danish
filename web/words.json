@@ -6,6 +6,7 @@
    "to be, exist (with an adverbial phrase and/or the dummy subject der)",
    "to be (in cleft sentences emphasizing a noun phrase, with the dummy subject det and a relative clause)"
   ],
+  "short": "to be",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋɛːɐ]",
@@ -73,6 +74,7 @@
   "english": [
    "I"
   ],
+  "short": "I",
   "pos": "pron",
   "gender": null,
   "ipa": "[jɑ̈(j)]",
@@ -127,6 +129,7 @@
    "that",
    "it"
   ],
+  "short": "that",
   "pos": "pron",
   "gender": "et",
   "ipa": "[d̥e̝]",
@@ -152,6 +155,7 @@
   "english": [
    "thou, you (2nd person singular subject pronoun, informal)"
   ],
+  "short": "thou, you",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈd̥u]",
@@ -171,6 +175,7 @@
   "english": [
    "one"
   ],
+  "short": "one",
   "pos": "pron",
   "gender": null,
   "ipa": "[en]",
@@ -210,6 +215,7 @@
    "not (in a question, expecting a positive answer)",
    "isn’t it so (postponed, turning an affirmative utterance into a question)"
   ],
+  "short": "not",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈe̝ɡ̊(ə)]",
@@ -236,6 +242,7 @@
    "to have; to have got",
    "have (forms perfect tense)"
   ],
+  "short": "to have",
   "pos": "verb",
   "gender": null,
   "ipa": "[(ˈ)hæ]",
@@ -305,6 +312,7 @@
    "that, in order that, so that (introduces an adverbial clause stating the purpose)",
    "that, so that (introduces an adverbial clause stating the result, normally after a demonstrative adverb or pronoun)"
   ],
+  "short": "that",
   "pos": "conj",
   "gender": null,
   "ipa": "[æ(d̥)]",
@@ -317,6 +325,7 @@
   "english": [
    "and"
   ],
+  "short": "and",
   "pos": "conj",
   "gender": null,
   "ipa": "[ʌ]",
@@ -329,6 +338,7 @@
   "english": [
    "we"
   ],
+  "short": "we",
   "pos": "pron",
   "gender": null,
   "ipa": "[ʋi]",
@@ -377,6 +387,7 @@
    "towards (the way a thing is turned)",
    "to, until (the upper limit)"
   ],
+  "short": "to, towards",
   "pos": "prep",
   "gender": null,
   "ipa": "[tˢel]",
@@ -389,6 +400,7 @@
   "english": [
    "on"
   ],
+  "short": "on",
   "pos": "prep",
   "gender": null,
   "ipa": "[pʰɔ̽]",
@@ -408,6 +420,7 @@
   "english": [
    "he"
   ],
+  "short": "he",
   "pos": "pron",
   "gender": null,
   "ipa": "[hæn]",
@@ -435,6 +448,7 @@
    "shall, will (with the infinitive, expresses future tense)",
    "should, would (with the infinitive, expresses conditional mood)"
   ],
+  "short": "to want to, be willing to",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋilə]",
@@ -505,6 +519,7 @@
    "what, which",
    "what, that which"
   ],
+  "short": "what",
   "pos": "pron",
   "gender": null,
   "ipa": "[ʋæð̠˕ˠ]",
@@ -526,6 +541,7 @@
    "by",
    "including, counting"
   ],
+  "short": "with",
   "pos": "prep",
   "gender": null,
   "ipa": "[mɛ(ð)]",
@@ -538,6 +554,7 @@
   "english": [
    "such, that (only in fixed phrases: i så fald, i så fald, i så tilfælde, i så henseende)"
   ],
+  "short": "such, that",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈsʌ]",
@@ -552,6 +569,7 @@
    "of",
    "to"
   ],
+  "short": "for",
   "pos": "prep",
   "gender": null,
   "ipa": "[fʌ]",
@@ -565,6 +583,7 @@
    "first person singular accusative personal pronoun; me",
    "first person singular nominative personal pronoun; I"
   ],
+  "short": "first person singular accusative persona",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈmɑ̈(j)]",
@@ -592,6 +611,7 @@
    "who, which, that (introduces relative clauses, only when the pronoun is the subject of the sentence)",
    "added to interrogative pronouns functioning as the subject of interrogative dependent clauses or exclamative independent clauses"
   ],
+  "short": "there",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈd̥ɛˀɐ̯]",
@@ -604,6 +624,7 @@
   "english": [
    "you (2nd person singular object pronoun)"
   ],
+  "short": "you",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈd̥ɑ̈(j)]",
@@ -631,6 +652,7 @@
    "they (gender-neutral third-person singular)",
    "those"
   ],
+  "short": "they",
   "pos": "pron",
   "gender": null,
   "ipa": "[d̥i]",
@@ -644,6 +666,7 @@
    "that, the",
    "it"
   ],
+  "short": "that, the",
   "pos": "pron",
   "gender": "en",
   "ipa": "[ˈd̥ɛnˀ]",
@@ -669,6 +692,7 @@
   "english": [
    "a khan (Turkic, Tatar or Mongolic ruler)"
   ],
+  "short": "a khan",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -746,6 +770,7 @@
    "of",
    "from"
   ],
+  "short": "by",
   "pos": "prep",
   "gender": null,
   "ipa": "[a]",
@@ -760,6 +785,7 @@
    "must",
    "have to"
   ],
+  "short": "will, would, shall, should",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊ulə]",
@@ -808,6 +834,7 @@
    "mine 1.st person singular possessive pronoun",
    "my 1.st person singular possessive adjective"
   ],
+  "short": "mine 1.st person singular possessive pro",
   "pos": "pron",
   "gender": null,
   "ipa": "[miːˀn]",
@@ -833,6 +860,7 @@
   "english": [
    "here"
   ],
+  "short": "here",
   "pos": "adv",
   "gender": null,
   "ipa": "[hɛɐ̯]",
@@ -847,6 +875,7 @@
    "to get",
    "To appear, to manifest itself; come"
   ],
+  "short": "to come",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰʌmə]",
@@ -915,6 +944,7 @@
    "to make (with an object and a predicate)",
    "to make (with a single object)"
   ],
+  "short": "to do, perform, execute",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɡ̊œːɐ]",
@@ -982,6 +1012,7 @@
   "english": [
    "but"
   ],
+  "short": "but",
   "pos": "conj",
   "gender": null,
   "ipa": "[men]",
@@ -996,6 +1027,7 @@
    "in case of, in the event of (used with the conditional)",
    "upon, on, onto"
   ],
+  "short": "at, by",
   "pos": "prep",
   "gender": null,
   "ipa": "[(ˈ)ʋeð]",
@@ -1009,6 +1041,7 @@
    "your, thy (singular; one owner)",
    "yours, thine (singular; one owner)"
   ],
+  "short": "your, thy",
   "pos": "det",
   "gender": null,
   "ipa": "[d̥iːˀn]",
@@ -1034,6 +1067,7 @@
   "english": [
    "about"
   ],
+  "short": "about",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈʌmˀ",
@@ -1046,6 +1080,7 @@
   "english": [
    "she"
   ],
+  "short": "she",
   "pos": "pron",
   "gender": null,
   "ipa": "[hun]",
@@ -1071,6 +1106,7 @@
   "english": [
    "now"
   ],
+  "short": "now",
   "pos": "conj",
   "gender": null,
   "ipa": "[nu]",
@@ -1085,6 +1121,7 @@
    "to look",
    "to watch"
   ],
+  "short": "to see",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈseˀ]",
@@ -1152,6 +1189,7 @@
   "english": [
    "yes"
   ],
+  "short": "yes",
   "pos": "intj",
   "gender": null,
   "ipa": "[jɛ]",
@@ -1166,6 +1204,7 @@
    "to be (used with the past participle to form the passive voice)",
    "to amount (to total or evaluate)"
   ],
+  "short": "to become",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥liːi]",
@@ -1232,6 +1271,7 @@
   "english": [
    "who, which, that (introduces relative clauses)"
   ],
+  "short": "who, which, that",
   "pos": "pron",
   "gender": null,
   "ipa": "[sʌm]",
@@ -1245,6 +1285,7 @@
    "to get",
    "to have"
   ],
+  "short": "to get",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfɔˀ]",
@@ -1299,6 +1340,7 @@
    "no",
    "oh, oh no"
   ],
+  "short": "no",
   "pos": "intj",
   "gender": null,
   "ipa": "[najˀ]",
@@ -1313,6 +1355,7 @@
    "to tell",
    "to mean"
   ],
+  "short": "to say",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsiːə]",
@@ -1380,6 +1423,7 @@
    "to go",
    "to walk"
   ],
+  "short": "to go",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɡ̊ɔˀ]",
@@ -1449,6 +1493,7 @@
    "for a while, for some time",
    "some distance, not far"
   ],
+  "short": "a little, a bit, somewhat",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈnɔðð̩]",
@@ -1469,6 +1514,7 @@
   "english": [
    "him: objective of han"
   ],
+  "short": "him: objective of han",
   "pos": "pron",
   "gender": null,
   "ipa": "[hɑ̈m]",
@@ -1482,6 +1528,7 @@
    "all",
    "any"
   ],
+  "short": "all",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈælˀ]",
@@ -1509,6 +1556,7 @@
    "to catch, hold",
    "to charge (to take money)"
   ],
+  "short": "to take, get, pick up",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢæ]",
@@ -1579,6 +1627,7 @@
    "I wish, I hope, if only (introduces a wish)",
    "if only (introduces a conditional subclause)"
   ],
+  "short": "I wish, I hope, if only",
   "pos": "conj",
   "gender": null,
   "ipa": "[ˈb̥ɑːɑ]",
@@ -1593,6 +1642,7 @@
    "can, may (allowance)",
    "may (wish)"
   ],
+  "short": "must, have to, got to",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmʌd̥ə]",
@@ -1627,6 +1677,7 @@
    "where",
    "how (to what degree; modifier to indicate surprise, delight, or other strong feelings)"
   ],
+  "short": "where",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʋɒ̝ˀ]",
@@ -1639,6 +1690,7 @@
   "english": [
    "whose (of whom, of which)"
   ],
+  "short": "whose",
   "pos": "pron",
   "gender": null,
   "ipa": "[ves]",
@@ -1653,6 +1705,7 @@
    "ourselves",
    "ourself"
   ],
+  "short": "us, objective of vi",
   "pos": "pron",
   "gender": null,
   "ipa": "[ʌs]",
@@ -1665,6 +1718,7 @@
   "english": [
    "out"
   ],
+  "short": "out",
   "pos": "adv",
   "gender": null,
   "ipa": "/uðˀ/",
@@ -1677,6 +1731,7 @@
   "english": [
    "them (3rd person plural, objective case)"
   ],
+  "short": "them",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈd̥ɛm]",
@@ -1703,6 +1758,7 @@
    "to believe",
    "to think"
   ],
+  "short": "to believe",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtsʁo̰ː]",
@@ -1773,6 +1829,7 @@
    "pretty (mild intensifier)",
    "a little more than"
   ],
+  "short": "well",
   "pos": "adv",
   "gender": null,
   "ipa": "[ɡ̊ʌd̥]",
@@ -1785,6 +1842,7 @@
   "english": [
    "from"
   ],
+  "short": "from",
   "pos": "prep",
   "gender": null,
   "ipa": "[fʁ̥ɑ]",
@@ -1799,6 +1857,7 @@
    "charge",
    "let go"
   ],
+  "short": "load",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlæːðə]",
@@ -1866,6 +1925,7 @@
    "no",
    "no one, nobody, nothing, neither, none"
   ],
+  "short": "no",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈeŋŋ̍]",
@@ -1886,6 +1946,7 @@
    "any",
    "anybody, anyone, anything"
   ],
+  "short": "any",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈnoən]",
@@ -1906,6 +1967,7 @@
    "wherefore, why",
    "for this reason"
   ],
+  "short": "wherefore, why",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʋɔ̽fɒ̽]",
@@ -1920,6 +1982,7 @@
    "just, merely, simply",
    "just, exactly"
   ],
+  "short": "just, recently",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈliːə]",
@@ -1934,6 +1997,7 @@
    "up (to completion)",
    "un- (the inverse of a specified action)"
   ],
+  "short": "up",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʌb]",
@@ -1946,6 +2010,7 @@
   "english": [
    "objective case of hun (“she”): her"
   ],
+  "short": "objective case of hun: her",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈhenə]",
@@ -1958,6 +2023,7 @@
   "english": [
    "third-person pronoun"
   ],
+  "short": "third-person pronoun",
   "pos": "pron",
   "gender": null,
   "ipa": "[sɑj]",
@@ -1970,6 +2036,7 @@
   "english": [
    "how"
   ],
+  "short": "how",
   "pos": "adv",
   "gender": null,
   "ipa": "[ʋʌˈd̥an]",
@@ -1982,6 +2049,7 @@
   "english": [
    "thank you, thanks"
   ],
+  "short": "thank you, thanks",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈtˢɑɡ̊]",
@@ -1994,6 +2062,7 @@
   "english": [
    "to give"
   ],
+  "short": "to give",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɡ̊iˀ]",
@@ -2065,6 +2134,7 @@
    "to be allowed, may (with an infinitive)",
    "could, would, might (with an infinitive, expressing potential mood)"
   ],
+  "short": "to be able, can",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰunə]",
@@ -2133,6 +2203,7 @@
    "this; this one",
    "the latter, the lastly mentioned"
   ],
+  "short": "this",
   "pos": "pron",
   "gender": "en",
   "ipa": "[ˈd̥ɛnə]",
@@ -2160,6 +2231,7 @@
    "to keep",
    "to last"
   ],
+  "short": "to hold",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhʌlə]",
@@ -2228,6 +2300,7 @@
    "to think, consider (with a noun clause)",
    "to exist - see findes"
   ],
+  "short": "to find",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfenə]",
@@ -2298,6 +2371,7 @@
    "or",
    "nor"
   ],
+  "short": "or",
   "pos": "conj",
   "gender": null,
   "ipa": "[ˈelɐ]",
@@ -2320,6 +2394,7 @@
    "I (used modestly instead of the first-person pronoun)",
    "you (used derogatorily instead of the second-person pronoun)"
   ],
+  "short": "you, one, they, people",
   "pos": "pron",
   "gender": null,
   "ipa": "[man]",
@@ -2357,6 +2432,7 @@
   "english": [
    "good"
   ],
+  "short": "good",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɡ̊oˀð]",
@@ -2412,6 +2488,7 @@
    "very",
    "much"
   ],
+  "short": "very",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈmɑðð̩]",
@@ -2425,6 +2502,7 @@
    "to make a speech",
    "to speak, talk"
   ],
+  "short": "to make a speech",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢɛːlə]",
@@ -2491,6 +2569,7 @@
   "english": [
    "enough"
   ],
+  "short": "enough",
   "pos": "det",
   "gender": null,
   "ipa": "[ˈnʌɡ̊]",
@@ -2505,6 +2584,7 @@
    "as, at the same time as",
    "because"
   ],
+  "short": "when",
   "pos": "conj",
   "gender": null,
   "ipa": null,
@@ -2518,6 +2598,7 @@
    "who",
    "who, that"
   ],
+  "short": "who",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈʋemˀ]",
@@ -2543,6 +2624,7 @@
   "english": [
    "to use"
   ],
+  "short": "to use",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥ʁuːu]",
@@ -2610,6 +2692,7 @@
    "man (adult male human)",
    "husband (male spouse)"
   ],
+  "short": "man",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈmænˀ]",
@@ -2685,6 +2768,7 @@
   "english": [
    "after; subsequent; later in time than"
   ],
+  "short": "after",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈefd̥ɐ]",
@@ -2699,6 +2783,7 @@
    "left, remaining",
    "backwards (direction)"
   ],
+  "short": "back",
   "pos": "adv",
   "gender": null,
   "ipa": "[t͡sʰe̝ˈb̥ɛːɪ]",
@@ -2711,6 +2796,7 @@
   "english": [
    "when"
   ],
+  "short": "when",
   "pos": "conj",
   "gender": null,
   "ipa": "[nɒːˀ]",
@@ -2723,6 +2809,7 @@
   "english": [
    "day"
   ],
+  "short": "day",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈd̥æˀj]",
@@ -2798,6 +2885,7 @@
   "english": [
    "perhaps, possibly, maybe"
   ],
+  "short": "perhaps, possibly, maybe",
   "pos": "adv",
   "gender": null,
   "ipa": "[mɔˈsɡ̊eːˀ]",
@@ -2812,6 +2900,7 @@
    "happen, occur",
    "take place"
   ],
+  "short": "be",
   "pos": "verb",
   "gender": null,
   "ipa": "[sɡ̊eˀ]",
@@ -2851,6 +2940,7 @@
   "english": [
    "too, as well, also"
   ],
+  "short": "too, as well, also",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʌs(ə)]",
@@ -2878,6 +2968,7 @@
   "english": [
    "father, dad"
   ],
+  "short": "father, dad",
   "pos": "noun",
   "gender": "en",
   "ipa": "[fɑ̈ː]",
@@ -2953,6 +3044,7 @@
   "english": [
    "the"
   ],
+  "short": "the",
   "pos": "conj",
   "gender": null,
   "ipa": "[jo]",
@@ -2965,6 +3057,7 @@
   "english": [
    "in (indicating movement from exterior to interior)"
   ],
+  "short": "in",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -2977,6 +3070,7 @@
   "english": [
    "our, ours"
   ],
+  "short": "our, ours",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈʋɒ̝ːɒ̝s]",
@@ -2990,6 +3084,7 @@
    "hi, hello",
    "bye"
   ],
+  "short": "hi, hello",
   "pos": "intj",
   "gender": null,
   "ipa": "[hɑ̈j]",
@@ -3002,6 +3097,7 @@
   "english": [
    "more"
   ],
+  "short": "more",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈmeːɐ]",
@@ -3014,6 +3110,7 @@
   "english": [
    "time"
   ],
+  "short": "time",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈtˢiˀð]",
@@ -3089,6 +3186,7 @@
   "english": [
    "a bit, a little"
   ],
+  "short": "a bit, a little",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈled̥]",
@@ -3101,6 +3199,7 @@
   "english": [
    "never (at no time)"
   ],
+  "short": "never",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈɑld̥ʁi]",
@@ -3114,6 +3213,7 @@
    "self, -self (on one's own)",
    "self, -self (emphatic)"
   ],
+  "short": "self, -self",
   "pos": "pron",
   "gender": null,
   "ipa": "[sɛlˀ]",
@@ -3127,6 +3227,7 @@
    "above",
    "past an hour"
   ],
+  "short": "above",
   "pos": "prep",
   "gender": null,
   "ipa": null,
@@ -3139,6 +3240,7 @@
   "english": [
    "two"
   ],
+  "short": "two",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈtˢoˀ]",
@@ -3152,6 +3254,7 @@
    "to tell, to report",
    "to narrate"
   ],
+  "short": "to tell, to report",
   "pos": "verb",
   "gender": null,
   "ipa": "[fʌˈtˢelˀə]",
@@ -3220,6 +3323,7 @@
    "so much",
    "about, something like"
   ],
+  "short": "like this, like that, in this way, in th",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsʌd̥ən]",
@@ -3239,6 +3343,7 @@
   "english": [
    "to widen"
   ],
+  "short": "to widen",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋiðð̩]",
@@ -3307,6 +3412,7 @@
   "english": [
    "only"
   ],
+  "short": "only",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈkʰɔn]",
@@ -3320,6 +3426,7 @@
    "Used to show that one has to multiply one or more numbers together.",
    "Used between two or more sizes to specify a target object, for example width and length."
   ],
+  "short": "Used to show that one has to multiply on",
   "pos": "conj",
   "gender": null,
   "ipa": null,
@@ -3333,6 +3440,7 @@
    "wait",
    "expect"
   ],
+  "short": "wait",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋɛnd̥ə]",
@@ -3399,6 +3507,7 @@
   "english": [
    "other, another, else"
   ],
+  "short": "other, another, else",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈænn̩]",
@@ -3426,6 +3535,7 @@
    "To amuse, entertain",
    "to have fun; to enjoy oneself"
   ],
+  "short": "To amuse, entertain",
   "pos": "verb",
   "gender": null,
   "ipa": "/ˈmoːʌ/",
@@ -3478,6 +3588,7 @@
   "english": [
    "second person plural objective case – you, yourselves"
   ],
+  "short": "second person plural objective case – yo",
   "pos": "pron",
   "gender": null,
   "ipa": "[jɛɒ̯̽]",
@@ -3490,6 +3601,7 @@
   "english": [
    "again"
   ],
+  "short": "again",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -3510,6 +3622,7 @@
   "english": [
    "together"
   ],
+  "short": "together",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -3522,6 +3635,7 @@
   "english": [
    "die"
   ],
+  "short": "die",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥øˀ]",
@@ -3589,6 +3703,7 @@
   "english": [
    "heal"
   ],
+  "short": "heal",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -3620,6 +3735,7 @@
   "english": [
    "to manage, to handle, to cope"
   ],
+  "short": "to manage, to handle, to cope",
   "pos": "verb",
   "gender": null,
   "ipa": "/klarə/",
@@ -3688,6 +3804,7 @@
    "lower case",
    "Denoting a slightly smaller quantity."
   ],
+  "short": "small, little, slight",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈlill̩]",
@@ -3738,6 +3855,7 @@
    "great; magnificent; important",
    "capital, upper case"
   ],
+  "short": "large",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈsd̥oˀɐ̯]",
@@ -3792,6 +3910,7 @@
   "english": [
    "low (all senses)"
   ],
+  "short": "low",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈlæˀʋ]",
@@ -3861,6 +3980,7 @@
   "english": [
    "work, to do a specific task (Generally for money)"
   ],
+  "short": "work, to do a specific task",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɑ̈ːˌb̥ɑ̈jˀɾə]",
@@ -3929,6 +4049,7 @@
    "to believe",
    "to intend"
   ],
+  "short": "to think",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢɛŋɡ̊ə]",
@@ -3997,6 +4118,7 @@
    "to learn (to be told)",
    "to belong to (to be a natural part of something, with the preposition til)"
   ],
+  "short": "to hear",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhøːɐ]",
@@ -4065,6 +4187,7 @@
   "english": [
    "their (3rd person plural, possessive)"
   ],
+  "short": "their",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈd̥ɛɒ̯̽s]",
@@ -4090,6 +4213,7 @@
   "english": [
    "year"
   ],
+  "short": "year",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈɒˀ]",
@@ -4158,6 +4282,7 @@
   "english": [
    "before"
   ],
+  "short": "before",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈfœ̝ɐ̯ˀ]",
@@ -4170,6 +4295,7 @@
   "english": [
    "because (subordinating conjunction introducing a subclause expressing the cause, less often a concession or a motive)"
   ],
+  "short": "because",
   "pos": "conj",
   "gender": null,
   "ipa": "[fʌˈd̥iˀ]",
@@ -4182,6 +4308,7 @@
   "english": [
    "a little bit"
   ],
+  "short": "a little bit",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈkʰenə]",
@@ -4196,6 +4323,7 @@
    "to test",
    "to try out, try on"
   ],
+  "short": "to try",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈpʰʁ̥œːʋə]",
@@ -4264,6 +4392,7 @@
   "english": [
    "than (in comparisons)"
   ],
+  "short": "than",
   "pos": "conj",
   "gender": null,
   "ipa": "/ɛn/",
@@ -4278,6 +4407,7 @@
    "excuse me",
    "pardon"
   ],
+  "short": "sorry",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈɔ̽nˌskylˀ]",
@@ -4291,6 +4421,7 @@
    "friend",
    "boyfriend (a male lover)"
   ],
+  "short": "friend",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈʋɛn]",
@@ -4368,6 +4499,7 @@
    "waist, middle",
    "bodice"
   ],
+  "short": "life",
   "pos": "noun",
   "gender": "et",
   "ipa": "[liwˀ]",
@@ -4437,6 +4569,7 @@
    "gone",
    "away"
   ],
+  "short": "gone",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈvɛɡ̊]",
@@ -4450,6 +4583,7 @@
    "to love",
    "to make love"
   ],
+  "short": "to love",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈelsɡ̊ə]",
@@ -4517,6 +4651,7 @@
    "completely, altogether, quite, fully, totally, absolutely",
    "quite, fairly"
   ],
+  "short": "completely, altogether, quite, fully, to",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈheˀld̥]",
@@ -4530,6 +4665,7 @@
    "to mean (to have a certain meaning in mind)",
    "to think, hold, consider"
   ],
+  "short": "to mean",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmeːnə]",
@@ -4599,6 +4735,7 @@
    "down, downwards",
    "down, off (used with verbs to denote turning or shutting something off or down)"
   ],
+  "short": "down, downwards",
   "pos": "adv",
   "gender": null,
   "ipa": "[neð̠˕ˠ]",
@@ -4613,6 +4750,7 @@
    "to assist",
    "to aid"
   ],
+  "short": "to help",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈjɛlb̥ə]",
@@ -4682,6 +4820,7 @@
   "english": [
    "folk music (contemporary music in the style of traditional folk music)"
   ],
+  "short": "folk music",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈfɔwɡ̊]",
@@ -4726,6 +4865,7 @@
   "english": [
    "assembly, parliament (a judicial or legislative assembly)"
   ],
+  "short": "assembly, parliament",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈtˢeŋˀ]",
@@ -4794,6 +4934,7 @@
   "english": [
    "to understand"
   ],
+  "short": "to understand",
   "pos": "verb",
   "gender": null,
   "ipa": "[fʌˈsd̥ɔˀ]",
@@ -4854,6 +4995,7 @@
   "english": [
    "to kill"
   ],
+  "short": "to kill",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥ʁɛːb̥ə]",
@@ -4920,6 +5062,7 @@
   "english": [
    "slay (kill in battle)"
   ],
+  "short": "slay",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈvɑːjə]",
@@ -4987,6 +5130,7 @@
    "child (immature human)",
    "child (human offspring)"
   ],
+  "short": "child",
   "pos": "noun",
   "gender": "et",
   "ipa": "[pɑ̈ˀn]",
@@ -5062,6 +5206,7 @@
   "english": [
    "many"
   ],
+  "short": "many",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈmɑŋən]",
@@ -5116,6 +5261,7 @@
   "english": [
    "with pleasure; gladly, willingly, readily"
   ],
+  "short": "with pleasure",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈɡ̊ɛɐ̯nə]",
@@ -5163,6 +5309,7 @@
    "to stand",
    "to be, appear (in a text), to say, to be written"
   ],
+  "short": "to stand",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥ɔˀ]",
@@ -5232,6 +5379,7 @@
    "fresh",
    "recent"
   ],
+  "short": "new",
   "pos": "adj",
   "gender": null,
   "ipa": "[nyːˀ]",
@@ -5301,6 +5449,7 @@
   "english": [
    "To call, to telephone"
   ],
+  "short": "To call, to telephone",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -5367,6 +5516,7 @@
   "english": [
    "really, truly"
   ],
+  "short": "really, truly",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -5379,6 +5529,7 @@
   "english": [
    "since"
   ],
+  "short": "since",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈsiðən]",
@@ -5393,6 +5544,7 @@
    "to drive (to go somewhere in a vehicle), to ride (to go somewhere, e.g. on a bike)",
    "to run (of a machine)"
   ],
+  "short": "to drive",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰøːɐ]",
@@ -5459,6 +5611,7 @@
   "english": [
    "always"
   ],
+  "short": "always",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈalˀˌtˢiðˀ]",
@@ -5472,6 +5625,7 @@
    "to cram",
    "to darn"
   ],
+  "short": "to cram",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥ʌb̥ə]",
@@ -5542,6 +5696,7 @@
    "to mow",
    "to strike, defeat"
   ],
+  "short": "to beat, hit, knock",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsl̥ɔˀ]",
@@ -5608,6 +5763,7 @@
   "english": [
    "ought"
   ],
+  "short": "ought",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥oɐ̯d̥ə]",
@@ -5643,6 +5799,7 @@
    "continuously",
    "continually"
   ],
+  "short": "constantly",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsd̥æːði]",
@@ -5655,6 +5812,7 @@
   "english": [
    "home (back to where somebody belongs)"
   ],
+  "short": "home",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈjɛmˀ]",
@@ -5669,6 +5827,7 @@
    "rightly, properly",
    "rather, quite"
   ],
+  "short": "straight",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʁad̥]",
@@ -5681,6 +5840,7 @@
   "english": [
    "money"
   ],
+  "short": "money",
   "pos": "noun",
   "gender": null,
   "ipa": "[ˈpʰɛŋə]",
@@ -5727,6 +5887,7 @@
    "proper",
    "correct"
   ],
+  "short": "right",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈʁæɡ̊d̥i]",
@@ -5797,6 +5958,7 @@
    "god, God (deity, supernatural being)",
    "a mild swear word"
   ],
+  "short": "god, God",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈɡ̊uð]",
@@ -5872,6 +6034,7 @@
   "english": [
    "on"
   ],
+  "short": "on",
   "pos": "prep",
   "gender": null,
   "ipa": "[ɔ]",
@@ -5884,6 +6047,7 @@
   "english": [
    "third-person sg pronoun, meaning his/her/its (own)"
   ],
+  "short": "third-person sg pronoun, meaning his/her",
   "pos": "pron",
   "gender": "en",
   "ipa": null,
@@ -5911,6 +6075,7 @@
    "to show up (intransitive, normally with a preposition phrase)",
    "to meet (reciprocal), see mødes"
   ],
+  "short": "to meet, encounter",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmøːðə]",
@@ -5978,6 +6143,7 @@
    "approach (to draw near, in a figurative sense; to come near to in time)",
    "proceed"
   ],
+  "short": "approach",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈliːðə]",
@@ -6048,6 +6214,7 @@
    "finely",
    "alright"
   ],
+  "short": "finely",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -6061,6 +6228,7 @@
    "plural of anden",
    "others"
   ],
+  "short": "plural of anden",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈɑnd̥ʁɐ]",
@@ -6075,6 +6243,7 @@
    "girl, woman (a female adult, underplaying the age)",
    "girl, girlfriend (a woman as a potential or actual sexual partner)"
   ],
+  "short": "girl",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈpʰiːə]",
@@ -6151,6 +6320,7 @@
    "without",
    "except for, but, save"
   ],
+  "short": "without",
   "pos": "prep",
   "gender": null,
   "ipa": "/ˈuðən/",
@@ -6163,6 +6333,7 @@
   "english": [
    "is it the case"
   ],
+  "short": "is it the case",
   "pos": "intj",
   "gender": null,
   "ipa": "/ˈvɛl/",
@@ -6175,6 +6346,7 @@
   "english": [
    "car, automobile"
   ],
+  "short": "car, automobile",
   "pos": "noun",
   "gender": "en",
   "ipa": "[b̥iːˀl]",
@@ -6250,6 +6422,7 @@
   "english": [
    "to remember"
   ],
+  "short": "to remember",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhusɡ̊ə]",
@@ -6318,6 +6491,7 @@
    "toward, towards; to (physical orientation, facing)",
    "toward, towards; to (temporal motion)"
   ],
+  "short": "toward, towards",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈmoˀð]",
@@ -6339,6 +6513,7 @@
    "to fix, stake",
    "to plant"
   ],
+  "short": "to put, place, set",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɛd̥ə]",
@@ -6407,6 +6582,7 @@
   "english": [
    "to make a halt, take a rest"
   ],
+  "short": "to make a halt, take a rest",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥eðð̩]",
@@ -6475,6 +6651,7 @@
   "english": [
    "oh"
   ],
+  "short": "oh",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈnʌ]",
@@ -6487,6 +6664,7 @@
   "english": [
    "three"
   ],
+  "short": "three",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈtˢʁ̥ɛˀ]",
@@ -6500,6 +6678,7 @@
    "to better, improve",
    "to relieve (cause an illness or disease to subside)"
   ],
+  "short": "to better, improve",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥e̝ðʁɐ]",
@@ -6568,6 +6747,7 @@
    "to gamble, play a game",
    "to move quickly (e.g. with the muscles, the tongue)"
   ],
+  "short": "to play",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsb̥elə]",
@@ -6637,6 +6817,7 @@
    "old (having existed for a relatively long period of time)",
    "old (belonging to a relatively distant time period)"
   ],
+  "short": "old",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɡ̊ɑml̩]",
@@ -6700,6 +6881,7 @@
    "latest",
    "latter"
   ],
+  "short": "last",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈsisd̥ə]",
@@ -6714,6 +6896,7 @@
    "to prove",
    "show off"
   ],
+  "short": "to show",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋiːsə]",
@@ -6781,6 +6964,7 @@
    "evening",
    "night (evening)"
   ],
+  "short": "evening",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈɑ̈fd̥n̩]",
@@ -6854,6 +7038,7 @@
   "english": [
    "problem"
   ],
+  "short": "problem",
   "pos": "noun",
   "gender": "et",
   "ipa": null,
@@ -6931,6 +7116,7 @@
    "to chatter (talk, especially meaningless or unimportant talk)",
    "to prattle (to talk incessantly; to babble)"
   ],
+  "short": "to talk, speak",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsnɑɡ̊ə]",
@@ -7001,6 +7187,7 @@
    "to cook, prepare",
    "to do"
   ],
+  "short": "to make, create, construct, produce",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɛːʋə]",
@@ -7069,6 +7256,7 @@
    "equal",
    "said"
   ],
+  "short": "same",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈsɑmə]",
@@ -7082,6 +7270,7 @@
    "name (word or phrase indicating a particular person, place, class or thing)",
    "reputation"
   ],
+  "short": "name",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈnɑwˀn]",
@@ -7158,6 +7347,7 @@
    "to ask, inquire",
    "to find out about, to learn about"
   ],
+  "short": "to ask, inquire",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsb̥ɶɐ̯wə]",
@@ -7224,6 +7414,7 @@
   "english": [
    "morning (the part of the day after midnight and before midday)"
   ],
+  "short": "morning",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈmɒ̝ːɒ̝n]",
@@ -7236,6 +7427,7 @@
   "english": [
    "to wish"
   ],
+  "short": "to wish",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈønsɡə]",
@@ -7302,6 +7494,7 @@
   "english": [
    "the hell, the devil (used with an interrogative or relative adverb)"
   ],
+  "short": "the hell, the devil",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈfanən]",
@@ -7316,6 +7509,7 @@
    "to be",
    "to fit"
   ],
+  "short": "to sit",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈseðə]",
@@ -7383,6 +7577,7 @@
    "every, each",
    "everyone"
   ],
+  "short": "every, each",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈʋɛˀɐ̯]",
@@ -7402,6 +7597,7 @@
   "english": [
    "to send"
   ],
+  "short": "to send",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɛnə]",
@@ -7468,6 +7664,7 @@
   "english": [
    "hear"
   ],
+  "short": "hear",
   "pos": "intj",
   "gender": null,
   "ipa": "[høɐ̯ˀ]",
@@ -7480,6 +7677,7 @@
   "english": [
    "first"
   ],
+  "short": "first",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈfɶɐ̯sd̥ə]",
@@ -7494,6 +7692,7 @@
    "to seem, appear (with an infinitive)",
    "to look (with an adjective)"
   ],
+  "short": "to think",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsynəs]",
@@ -7520,6 +7719,7 @@
   "english": [
    "help! (cry of distress)"
   ],
+  "short": "help!",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈjɛlˀb̥]",
@@ -7532,6 +7732,7 @@
   "english": [
    "A woman."
   ],
+  "short": "A woman",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈkʰʋ̥e̝nə]",
@@ -7608,6 +7809,7 @@
    "to feel, sense",
    "to feel (with a predicative adjective)"
   ],
+  "short": "to feel, sense",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈføːlə]",
@@ -7676,6 +7878,7 @@
   "english": [
    "Used with a verb, indicating a movement towards or to something."
   ],
+  "short": "Used with a verb, indicating a movement ",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈhɛn]",
@@ -7689,6 +7892,7 @@
    "to shoot",
    "to push, to shove"
   ],
+  "short": "to shoot",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊yːðə]",
@@ -7756,6 +7960,7 @@
    "to let go, release, drop",
    "to get out, get away, get off"
   ],
+  "short": "to let go, release, drop",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsl̥eb̥ə]",
@@ -7826,6 +8031,7 @@
    "what, which, the",
    "who, whom, which, whatever, whichever"
   ],
+  "short": "what, which, the",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈʋe̝lɡ̊ŋ̍]",
@@ -7851,6 +8057,7 @@
   "english": [
    "boy, lad"
   ],
+  "short": "boy, lad",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈd̥ʁɑ̈ŋˀ]",
@@ -7927,6 +8134,7 @@
    "to promise",
    "to praise"
   ],
+  "short": "to promise",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɔːʋə]",
@@ -7995,6 +8203,7 @@
   "english": [
    "your (2nd person plural, possessive case)"
   ],
+  "short": "your",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈjɛɒ̽s]",
@@ -8022,6 +8231,7 @@
    "to shoot (weapon)",
    "to smoke weed"
   ],
+  "short": "to light, fire up",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfyːɐ]",
@@ -8088,6 +8298,7 @@
   "english": [
    "long (having great distance)"
   ],
+  "short": "long",
   "pos": "adj",
   "gender": null,
   "ipa": "[lɑŋˀ]",
@@ -8144,6 +8355,7 @@
    "family (group of people related by blood, marriage, law, or custom)",
    "family (kin, tribe)"
   ],
+  "short": "family",
   "pos": "noun",
   "gender": "en",
   "ipa": "[fæˈmilˀjə]",
@@ -8219,6 +8431,7 @@
   "english": [
    "tax"
   ],
+  "short": "tax",
   "pos": "noun",
   "gender": "en",
   "ipa": "[sɡ̊ad̥]",
@@ -8294,6 +8507,7 @@
   "english": [
    "to forget"
   ],
+  "short": "to forget",
   "pos": "verb",
   "gender": null,
   "ipa": "/ˈklemə/",
@@ -8360,6 +8574,7 @@
   "english": [
    "to start, begin, commence, open"
   ],
+  "short": "to start, begin, commence, open",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥eˈɡ̊ønˀə]",
@@ -8428,6 +8643,7 @@
   "english": [
    "to call, to refer to"
   ],
+  "short": "to call, to refer to",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -8494,6 +8710,7 @@
   "english": [
    "to measure"
   ],
+  "short": "to measure",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmɔːðə]",
@@ -8560,6 +8777,7 @@
   "english": [
    "long (of duration)"
   ],
+  "short": "long",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈlɛŋə]",
@@ -8585,6 +8803,7 @@
   "english": [
    "only, sole"
   ],
+  "short": "only, sole",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈeːnəsd̥ə]",
@@ -8597,6 +8816,7 @@
   "english": [
    "still, quietly, silently"
   ],
+  "short": "still, quietly, silently",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsd̥elə]",
@@ -8611,6 +8831,7 @@
    "to be (occupy a place)",
    "to stand (e.g. a house)"
   ],
+  "short": "to lie",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈleɡ̊ə]",
@@ -8680,6 +8901,7 @@
    "human, human being, man (a member of the species Homo sapiens or related prehistoric species of the genus Homo)",
    "person, people (individuals of all genders and ages)"
   ],
+  "short": "human, human being, man",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈmɛnn̩sɡ̊ə]",
@@ -8757,6 +8979,7 @@
    "underneath",
    "below"
   ],
+  "short": "under",
   "pos": "prep",
   "gender": null,
   "ipa": "[ɔnɐ]",
@@ -8777,6 +9000,7 @@
   "english": [
    "yet"
   ],
+  "short": "yet",
   "pos": "adv",
   "gender": null,
   "ipa": "/eˈnu/",
@@ -8791,6 +9015,7 @@
    "to be named",
    "to be said, claimed"
   ],
+  "short": "to be called",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈheðə]",
@@ -8850,6 +9075,7 @@
   "english": [
    "hand"
   ],
+  "short": "hand",
   "pos": "noun",
   "gender": "en",
   "ipa": "[hʌnˀ]",
@@ -8925,6 +9151,7 @@
   "english": [
    "world"
   ],
+  "short": "world",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈʋaɐ̯d̥n̩]",
@@ -9001,6 +9228,7 @@
    "to curdle (to make the milk run together)",
    "to curdle"
   ],
+  "short": "to curdle",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -9071,6 +9299,7 @@
    "to live off or live on",
    "to still exist (not extinct or abolished)"
   ],
+  "short": "to live, be alive",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈleːʋə]",
@@ -9139,6 +9368,7 @@
    "to put, place",
    "to lay (an egg)"
   ],
+  "short": "to lay",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɛɡ̊ə]",
@@ -9206,6 +9436,7 @@
    "safe, secure",
    "sure, certain"
   ],
+  "short": "safe, secure",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈseɡ̊ɐ]",
@@ -9277,6 +9508,7 @@
    "share",
    "split"
   ],
+  "short": "divide",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥eːlə]",
@@ -9343,6 +9575,7 @@
   "english": [
    "to need"
   ],
+  "short": "to need",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥eˈhøˀʋə]",
@@ -9411,6 +9644,7 @@
   "english": [
    "to mean (convey, signify, indicate)"
   ],
+  "short": "to mean",
   "pos": "verb",
   "gender": null,
   "ipa": "[beˈtyˀðə]",
@@ -9477,6 +9711,7 @@
   "english": [
    "to time"
   ],
+  "short": "to time",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢɑjmə]",
@@ -9538,6 +9773,7 @@
   "english": [
    "to eat"
   ],
+  "short": "to eat",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsb̥iːsə]",
@@ -9604,6 +9840,7 @@
   "english": [
    "town, city"
   ],
+  "short": "town, city",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈb̥yˀ]",
@@ -9679,6 +9916,7 @@
   "english": [
    "to kill"
   ],
+  "short": "to kill",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥øːðə]",
@@ -9745,6 +9983,7 @@
   "english": [
    "evil"
   ],
+  "short": "evil",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɔnˀ]",
@@ -9812,6 +10051,7 @@
   "english": [
    "to owe (to have debt, to be in debt)"
   ],
+  "short": "to owe",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊ylə]",
@@ -9881,6 +10121,7 @@
    "to teach",
    "to learn"
   ],
+  "short": "to teach",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɛːɐ]",
@@ -9949,6 +10190,7 @@
    "no doubt",
    "steadily"
   ],
+  "short": "probably",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -9961,6 +10203,7 @@
   "english": [
    "to write (on any medium, including electronic ones)"
   ],
+  "short": "to write",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊ʁiːʋə]",
@@ -10030,6 +10273,7 @@
   "english": [
    "to look, search for"
   ],
+  "short": "to look, search for",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈle̝ːð̩]",
@@ -10100,6 +10344,7 @@
    "to work, to labor",
    "exert influence upon"
   ],
+  "short": "function properly",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -10159,6 +10404,7 @@
   "english": [
    "to hope"
   ],
+  "short": "to hope",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhɔːb̥ə]",
@@ -10225,6 +10471,7 @@
   "english": [
    "to obey"
   ],
+  "short": "to obey",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -10292,6 +10539,7 @@
    "at X's abode",
    "in X's view; as X expresses it in their writings"
   ],
+  "short": "at X's abode",
   "pos": "prep",
   "gender": null,
   "ipa": "[hɔs]",
@@ -10304,6 +10552,7 @@
   "english": [
    "son (a male person in relation to his parents)"
   ],
+  "short": "son",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈsœn]",
@@ -10379,6 +10628,7 @@
   "english": [
    "of course, naturally, sure"
   ],
+  "short": "of course, naturally, sure",
   "pos": "adv",
   "gender": null,
   "ipa": "[sɛlˈføljəli]",
@@ -10392,6 +10642,7 @@
    "calm, quiet, peaceful",
    "leisurely, unhurried"
   ],
+  "short": "calm, quiet, peaceful",
   "pos": "adj",
   "gender": null,
   "ipa": null,
@@ -10462,6 +10713,7 @@
    "to pair, to match",
    "to copulate, to mate, to pair"
   ],
+  "short": "to pair, to match",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈpʰɑː.ɑ]",
@@ -10529,6 +10781,7 @@
    "to follow",
    "to be a logical consequence of"
   ],
+  "short": "to follow",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈføljə]",
@@ -10596,6 +10849,7 @@
    "to press, urge",
    "to compel, oblige"
   ],
+  "short": "to press, urge",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈnøːðə]",
@@ -10665,6 +10919,7 @@
    "several",
    "multiple"
   ],
+  "short": "more",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈfleːɐ]",
@@ -10686,6 +10941,7 @@
    "at first",
    "not until, not till"
   ],
+  "short": "first, firstly",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈfɶɐ̯sd̥]",
@@ -10698,6 +10954,7 @@
   "english": [
    "week"
   ],
+  "short": "week",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈuːu]",
@@ -10774,6 +11031,7 @@
    "to fetch, retrieve",
    "to download"
   ],
+  "short": "to fetch, retrieve",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhɛndə]",
@@ -10840,6 +11098,7 @@
   "english": [
    "at some unspecified time in the past when..."
   ],
+  "short": "at some unspecified time in the past whe",
   "pos": "conj",
   "gender": null,
   "ipa": "[enˈɡ̊ɑŋ]",
@@ -10854,6 +11113,7 @@
    "I suppose",
    "probably, no doubt"
   ],
+  "short": "I think",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʋesd̥]",
@@ -10868,6 +11128,7 @@
    "purchase",
    "bribe"
   ],
+  "short": "buy",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰøːb̥ə]",
@@ -10935,6 +11196,7 @@
    "to be bored",
    "to bore someone"
   ],
+  "short": "to be bored",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -10968,6 +11230,7 @@
    "cause (grand mission)",
    "thing"
   ],
+  "short": "matter, affair",
   "pos": "noun",
   "gender": "en",
   "ipa": "[sæːˀj]",
@@ -11044,6 +11307,7 @@
    "to fall",
    "to drop, to descend"
   ],
+  "short": "to fall",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfalə]",
@@ -11111,6 +11375,7 @@
    "out",
    "outside"
   ],
+  "short": "out",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈuːðə]",
@@ -11123,6 +11388,7 @@
   "english": [
    "otherwise"
   ],
+  "short": "otherwise",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -11135,6 +11401,7 @@
   "english": [
    "blink of an eye, moment"
   ],
+  "short": "blink of an eye, moment",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈʌjəˈb̥leɡ̊]",
@@ -11212,6 +11479,7 @@
    "shortly",
    "presently"
   ],
+  "short": "soon",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsnɑˀt]",
@@ -11225,6 +11493,7 @@
    "adorn",
    "endow with a favorable quality"
   ],
+  "short": "adorn",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -11264,6 +11533,7 @@
    "A beat",
    "A battle (between two armies or, metaphorically two competing parties)"
   ],
+  "short": "A hit, punch",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈsl̥æˀj]",
@@ -11286,6 +11556,7 @@
    "order (arrangement, disposition, sequence of things)",
    "order (level in a hierarchy)"
   ],
+  "short": "order, neatness",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈɒˀd̥n̩]",
@@ -11361,6 +11632,7 @@
   "english": [
    "afraid, frightened, scared"
   ],
+  "short": "afraid, frightened, scared",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈb̥ɑ̈ŋŋ̩]",
@@ -11374,6 +11646,7 @@
    "wife (married woman)",
    "woman (frequent in compounds)"
   ],
+  "short": "wife",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈkʰoːnə]",
@@ -11451,6 +11724,7 @@
    "raise",
    "put up, set up, erect, pitch"
   ],
+  "short": "rise",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʁɑjsə]",
@@ -11512,6 +11786,7 @@
    "factual",
    "actually, as a matter of fact, in fact, really"
   ],
+  "short": "actual, real",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈfɑɡ̊d̥isɡ̊]",
@@ -11554,6 +11829,7 @@
   "english": [
    "to tack (to sew together)"
   ],
+  "short": "to tack",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈnɛsd̥ə]",
@@ -11622,6 +11898,7 @@
    "spot",
    "passage, text"
   ],
+  "short": "place",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈsd̥ɛð]",
@@ -11697,6 +11974,7 @@
   "english": [
    "to pay (to give money in exchange for goods or services)"
   ],
+  "short": "to pay",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥eˈtˢæˀlə]",
@@ -11765,6 +12043,7 @@
   "english": [
    "sweeten"
   ],
+  "short": "sweeten",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsøːðə]",
@@ -11796,6 +12075,7 @@
   "english": [
    "happy, glad"
   ],
+  "short": "happy, glad",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɡ̊læð]",
@@ -11868,6 +12148,7 @@
    "fine",
    "noble"
   ],
+  "short": "beautiful, handsome, good-looking",
   "pos": "adj",
   "gender": null,
   "ipa": "[smɔɡ̊]",
@@ -11937,6 +12218,7 @@
   "english": [
    "to lose"
   ],
+  "short": "to lose",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmesd̥ə]",
@@ -12006,6 +12288,7 @@
    "therefore",
    "for this, for that, for it"
   ],
+  "short": "therefore",
   "pos": "adv",
   "gender": null,
   "ipa": "/ˈd̥eːɐ̯.foɐ̯/",
@@ -12018,6 +12301,7 @@
   "english": [
    "to save, rescue"
   ],
+  "short": "to save, rescue",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʁæðð̩]",
@@ -12086,6 +12370,7 @@
   "english": [
    "minute"
   ],
+  "short": "minute",
   "pos": "noun",
   "gender": "et",
   "ipa": null,
@@ -12161,6 +12446,7 @@
   "english": [
    "police"
   ],
+  "short": "police",
   "pos": "noun",
   "gender": "et",
   "ipa": "[pʰoliˈtˢiːˀ]",
@@ -12207,6 +12493,7 @@
    "An exclamation to get attention.",
    "n hello (\"Hello!\" or an equivalent greeting)"
   ],
+  "short": "hello",
   "pos": "intj",
   "gender": null,
   "ipa": "[haˈlɔ]",
@@ -12221,6 +12508,7 @@
    "to glance",
    "to peek, peep, keek"
   ],
+  "short": "to look",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰiɡ̊ə]",
@@ -12289,6 +12577,7 @@
   "english": [
    "brother (male sibling)"
   ],
+  "short": "brother",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈpʁo̝ɒ̯̽]",
@@ -12366,6 +12655,7 @@
    "to ground",
    "to found"
   ],
+  "short": "to prime",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -12432,6 +12722,7 @@
   "english": [
    "to sleep"
   ],
+  "short": "to sleep",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɒːʊ]",
@@ -12500,6 +12791,7 @@
    "mind (the cognitive activities of a human being)",
    "person"
   ],
+  "short": "head",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈho̝ːð̩˕˗ˠ]",
@@ -12575,6 +12867,7 @@
   "english": [
    "wind, twist"
   ],
+  "short": "wind, twist",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈvenə]",
@@ -12630,6 +12923,7 @@
   "english": [
    "I will debate this no further"
   ],
+  "short": "I will debate this no further",
   "pos": "intj",
   "gender": null,
   "ipa": null,
@@ -12642,6 +12936,7 @@
   "english": [
    "as, like (used for making comparisons)"
   ],
+  "short": "as, like",
   "pos": "conj",
   "gender": null,
   "ipa": "[ˈlisʌm]",
@@ -12655,6 +12950,7 @@
    "only",
    "just"
   ],
+  "short": "only",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈæle̝ːnə]",
@@ -12668,6 +12964,7 @@
    "to death",
    "to death (to a great degree)"
   ],
+  "short": "to death",
   "pos": "adv",
   "gender": null,
   "ipa": "[iˈjɛl]",
@@ -12682,6 +12979,7 @@
    "to draw (a card or a line)",
    "to withdraw (money from an account)"
   ],
+  "short": "to pull, drag, haul, tow",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢʁ̥aɡ̊ə]",
@@ -12753,6 +13051,7 @@
    "bargain",
    "discovery"
   ],
+  "short": "find",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈfɔnˀ]",
@@ -12821,6 +13120,7 @@
   "english": [
    "night (period between sunset and sunrise)"
   ],
+  "short": "night",
   "pos": "noun",
   "gender": "en",
   "ipa": "/nad̥/",
@@ -12896,6 +13196,7 @@
   "english": [
    "a castrated male pig."
   ],
+  "short": "a castrated male pig",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈɡalˀd]",
@@ -12973,6 +13274,7 @@
    "heavy, massive, solid",
    "severe"
   ],
+  "short": "difficult, hard, stiff, tough",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈsʋ̥ɛˀɐ̯]",
@@ -13043,6 +13345,7 @@
    "tag (signature of a graffiti artist)",
    "tag (markup in an electronic file)"
   ],
+  "short": "tag",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈtˢæɡ̊]",
@@ -13118,6 +13421,7 @@
   "english": [
    "already (prior to some time, so soon)"
   ],
+  "short": "already",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -13130,6 +13434,7 @@
   "english": [
    "idea"
   ],
+  "short": "idea",
   "pos": "noun",
   "gender": "en",
   "ipa": "[iˈd̥eˀ]",
@@ -13204,6 +13509,7 @@
   "english": [
    "question"
   ],
+  "short": "question",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈs̺b̥œɒ̯̽s̺ˌmɔ̽ˀl]",
@@ -13272,6 +13578,7 @@
   "english": [
    "important"
   ],
+  "short": "important",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈve̝ɡ̊d̥i]",
@@ -13341,6 +13648,7 @@
   "english": [
    "five"
   ],
+  "short": "five",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈfɛmˀ]",
@@ -13353,6 +13661,7 @@
   "english": [
    "when (at what time)"
   ],
+  "short": "when",
   "pos": "adv",
   "gender": null,
   "ipa": "[vɒˈnɒˀ]",
@@ -13366,6 +13675,7 @@
    "job",
    "a task (at home or at work)"
   ],
+  "short": "job",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈd̥jʌb̥]",
@@ -13436,6 +13746,7 @@
    "story",
    "affair, business"
   ],
+  "short": "history",
   "pos": "noun",
   "gender": "en",
   "ipa": "[hiˈsd̥oɐ̯ˀjə]",
@@ -13513,6 +13824,7 @@
    "move (change one's home)",
    "move, move away (move oneself)"
   ],
+  "short": "move, remove",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈflød̥ə]",
@@ -13581,6 +13893,7 @@
    "take after",
    "be like"
   ],
+  "short": "resemble, look like",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈliːnə]",
@@ -13612,6 +13925,7 @@
   "english": [
    "true"
   ],
+  "short": "true",
   "pos": "adj",
   "gender": null,
   "ipa": "[sanˀ]",
@@ -13682,6 +13996,7 @@
    "comparative degree of længe",
    "anymore"
   ],
+  "short": "comparative degree of længe",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -13696,6 +14011,7 @@
    "to give up, quit, end an employment",
    "to forgive"
   ],
+  "short": "to leave",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -13763,6 +14079,7 @@
    "try",
    "attempt"
   ],
+  "short": "try",
   "pos": "verb",
   "gender": null,
   "ipa": "[fʌˈsøːˀjə]",
@@ -13794,6 +14111,7 @@
   "english": [
    "early"
   ],
+  "short": "early",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈtˢiðli]",
@@ -13806,6 +14124,7 @@
   "english": [
    "each other"
   ],
+  "short": "each other",
   "pos": "pron",
   "gender": null,
   "ipa": "[hiˈnann̩]",
@@ -13825,6 +14144,7 @@
   "english": [
    "dis, diss"
   ],
+  "short": "dis, diss",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥isə]",
@@ -13858,6 +14178,7 @@
    "side; a region in a specified position with respect to something.",
    "viewpoint an opinion or attitude"
   ],
+  "short": "side",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈs̺iːð̩˕˗ˠ]",
@@ -13933,6 +14254,7 @@
   "english": [
    "goodbye, farewell"
   ],
+  "short": "goodbye, farewell",
   "pos": "intj",
   "gender": null,
   "ipa": "[fɑ̈ːˈʋel]",
@@ -13945,6 +14267,7 @@
   "english": [
    "house, harbour"
   ],
+  "short": "house, harbour",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhuːsə]",
@@ -14011,6 +14334,7 @@
   "english": [
    "both (each of two; one and the other)"
   ],
+  "short": "both",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈb̥ɛɡ̊ə]",
@@ -14025,6 +14349,7 @@
    "belated, tardy",
    "slow"
   ],
+  "short": "late",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈseˀn]",
@@ -14094,6 +14419,7 @@
   "english": [
    "wrongly, erroneously, mis-"
   ],
+  "short": "wrongly, erroneously, mis-",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -14107,6 +14433,7 @@
    "drink",
    "have (to partake of a drink)"
   ],
+  "short": "drink",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥ʁɛɡ̊ə]",
@@ -14174,6 +14501,7 @@
    "word (a single word)",
    "word (an utterance)"
   ],
+  "short": "word",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈoɐ̯ˀ]",
@@ -14242,6 +14570,7 @@
   "english": [
    "to see, watch"
   ],
+  "short": "to see, watch",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʌjə]",
@@ -14308,6 +14637,7 @@
   "english": [
    "to catch, to capture"
   ],
+  "short": "to catch, to capture",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfɑŋə]",
@@ -14375,6 +14705,7 @@
   "english": [
    "hear, hear"
   ],
+  "short": "hear, hear",
   "pos": "intj",
   "gender": null,
   "ipa": null,
@@ -14387,6 +14718,7 @@
   "english": [
    "Only used with på: see stole på."
   ],
+  "short": "Only used with på: see stole på",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥oːlə]",
@@ -14418,6 +14750,7 @@
   "english": [
    "to open"
   ],
+  "short": "to open",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɔːb̥nə]",
@@ -14486,6 +14819,7 @@
   "english": [
    "very"
   ],
+  "short": "very",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈhaɐ̯ɐ]",
@@ -14498,6 +14832,7 @@
   "english": [
    "to take a chance, gamble"
   ],
+  "short": "to take a chance, gamble",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -14559,6 +14894,7 @@
    "to understand or grasp the thinking or behaviour of (someone).",
    "to begin to feel a certain emotion"
   ],
+  "short": "to understand or grasp the true meaning ",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfadə]",
@@ -14626,6 +14962,7 @@
    "comparative degree of sen",
    "later"
   ],
+  "short": "comparative degree of sen",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈseːnɐɐ]",
@@ -14640,6 +14977,7 @@
    "tough",
    "severe, harsh"
   ],
+  "short": "hard",
   "pos": "adj",
   "gender": null,
   "ipa": "[hɒˀ]",
@@ -14710,6 +15048,7 @@
    "to read",
    "to study formally"
   ],
+  "short": "to read",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈleːsə]",
@@ -14776,6 +15115,7 @@
   "english": [
    "to hate"
   ],
+  "short": "to hate",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhæːðə]",
@@ -14842,6 +15182,7 @@
   "english": [
    "young"
   ],
+  "short": "young",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɔŋˀ]",
@@ -14897,6 +15238,7 @@
    "to destroy",
    "to ruin"
   ],
+  "short": "to destroy",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈøðð̩ˌlɛɡ̊ə]",
@@ -14965,6 +15307,7 @@
   "english": [
    "from here; hence"
   ],
+  "short": "from here",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -14977,6 +15320,7 @@
   "english": [
    "month"
   ],
+  "short": "month",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈmɔ̝ːnð̩]",
@@ -15054,6 +15398,7 @@
    "a hell; a horrible, agonizing, situation or state of mind",
    "used as a swear word to express anger, helplessness, pain, etc."
   ],
+  "short": "hell",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈhɛ̝lvð̩ə]",
@@ -15129,6 +15474,7 @@
   "english": [
    "four"
   ],
+  "short": "four",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈfiːɐ]",
@@ -15141,6 +15487,7 @@
   "english": [
    "to free (to make free)"
   ],
+  "short": "to free",
   "pos": "verb",
   "gender": null,
   "ipa": "[fʁiːˀ]",
@@ -15207,6 +15554,7 @@
   "english": [
    "daughter"
   ],
+  "short": "daughter",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈd̥æɾɐ]",
@@ -15284,6 +15632,7 @@
    "to turn over (all senses)",
    "to discuss, debate"
   ],
+  "short": "to turn",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋɛnə]",
@@ -15351,6 +15700,7 @@
    "a plan",
    "a level or plane"
   ],
+  "short": "a plan",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -15427,6 +15777,7 @@
    "act (to do something)",
    "trade, shop"
   ],
+  "short": "act",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈhanlə]",
@@ -15493,6 +15844,7 @@
   "english": [
    "pass"
   ],
+  "short": "pass",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -15568,6 +15920,7 @@
   "english": [
    "crap, shit (See Thesaurus:dammit)"
   ],
+  "short": "crap, shit",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈloɐ̯ˀd]",
@@ -15580,6 +15933,7 @@
   "english": [
    "rapidly, expeditiously"
   ],
+  "short": "rapidly, expeditiously",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -15592,6 +15946,7 @@
   "english": [
    "forward, toward"
   ],
+  "short": "forward, toward",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈfʁamˀ]",
@@ -15604,6 +15959,7 @@
   "english": [
    "either"
   ],
+  "short": "either",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -15618,6 +15974,7 @@
    "to retort (give a sharp respond to a remark)",
    "to respond, counter (act in return)"
   ],
+  "short": "to answer, reply, respond",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsʋ̥ɑːɑ]",
@@ -15686,6 +16043,7 @@
   "english": [
    "round, around"
   ],
+  "short": "round, around",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈʁɔnˀd̥]",
@@ -15698,6 +16056,7 @@
   "english": [
    "to end, finish"
   ],
+  "short": "to end, finish",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɛnə]",
@@ -15767,6 +16126,7 @@
    "picture, image",
    "photo"
   ],
+  "short": "picture, image",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈb̥elð̩ð̩]",
@@ -15840,6 +16200,7 @@
   "english": [
    "to sell"
   ],
+  "short": "to sell",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɛljə]",
@@ -15910,6 +16271,7 @@
    "almost",
    "all but"
   ],
+  "short": "nearly",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈnɛsd̥ən]",
@@ -15924,6 +16286,7 @@
    "to shut",
    "to shut down"
   ],
+  "short": "to close",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɔɡ̊ə]",
@@ -15994,6 +16357,7 @@
    "to select",
    "to elect"
   ],
+  "short": "to choose",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʋɛljə]",
@@ -16062,6 +16426,7 @@
    "up to",
    "till"
   ],
+  "short": "until",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈe̝nˀtˢe̝]",
@@ -16075,6 +16440,7 @@
    "to lie (tell an untruth)",
    "to fib"
   ],
+  "short": "to lie",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlyːʋə]",
@@ -16141,6 +16507,7 @@
   "english": [
    "a dollar (monetary unit)"
   ],
+  "short": "a dollar",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -16218,6 +16585,7 @@
    "before",
    "at a point reached earlier"
   ],
+  "short": "before",
   "pos": "prep",
   "gender": null,
   "ipa": null,
@@ -16230,6 +16598,7 @@
   "english": [
    "rather (preference)"
   ],
+  "short": "rather",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -16242,6 +16611,7 @@
   "english": [
    "a variant of mod"
   ],
+  "short": "a variant of mod",
   "pos": "prep",
   "gender": null,
   "ipa": "[iˈmoˀð]",
@@ -16254,6 +16624,7 @@
   "english": [
    "a coat of arms"
   ],
+  "short": "a coat of arms",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈvɔːˀb̥m̩]",
@@ -16330,6 +16701,7 @@
    "on (continuing an action)",
    "go on (continue)"
   ],
+  "short": "farther, further",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈviðɐɐ]",
@@ -16342,6 +16714,7 @@
   "english": [
    "marry"
   ],
+  "short": "marry",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɡ̊ifd̥ə]",
@@ -16373,6 +16746,7 @@
   "english": [
    "dammit"
   ],
+  "short": "dammit",
   "pos": "intj",
   "gender": null,
   "ipa": null,
@@ -16385,6 +16759,7 @@
   "english": [
    "fight, struggle, battle"
   ],
+  "short": "fight, struggle, battle",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰɛmb̥ə]",
@@ -16453,6 +16828,7 @@
    "while (although)",
    "whereas"
   ],
+  "short": "while, when",
   "pos": "conj",
   "gender": null,
   "ipa": "[mens̺]",
@@ -16473,6 +16849,7 @@
   "english": [
    "nothing"
   ],
+  "short": "nothing",
   "pos": "pron",
   "gender": null,
   "ipa": "[ˈe̝ŋŋ̍ˌt͡sʰe̝ŋˀ]",
@@ -16485,6 +16862,7 @@
   "english": [
    "sorry"
   ],
+  "short": "sorry",
   "pos": "intj",
   "gender": null,
   "ipa": null,
@@ -16497,6 +16875,7 @@
   "english": [
    "to vanish, to disappear"
   ],
+  "short": "to vanish, to disappear",
   "pos": "verb",
   "gender": null,
   "ipa": "[fʌˈsvenˀə]",
@@ -16566,6 +16945,7 @@
   "english": [
    "incredible, amazing, fantastic"
   ],
+  "short": "incredible, amazing, fantastic",
   "pos": "adj",
   "gender": null,
   "ipa": "[fænˈtˢæsd̥isɡ̊]",
@@ -16608,6 +16988,7 @@
   "english": [
    "land"
   ],
+  "short": "land",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈjoɐ̯ˀ]",
@@ -16683,6 +17064,7 @@
   "english": [
    "to change, to alter"
   ],
+  "short": "to change, to alter",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɛnd̥ʁɐ]",
@@ -16751,6 +17133,7 @@
   "english": [
    "third-person sg pronoun, meaning his/her/its (own)"
   ],
+  "short": "third-person sg pronoun, meaning his/her",
   "pos": "pron",
   "gender": "et",
   "ipa": null,
@@ -16776,6 +17159,7 @@
   "english": [
    "to steal"
   ],
+  "short": "to steal",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈst͡ɕeːlə]",
@@ -16847,6 +17231,7 @@
    "multitude, crowd, mob (an anonymous group of people)",
    "many, loads, a lot, lots (in the singular with the other noun as an apposition, in the plural with the preposition af)"
   ],
+  "short": "mass, pulp",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈmasə]",
@@ -16922,6 +17307,7 @@
   "english": [
    "door"
   ],
+  "short": "door",
   "pos": "noun",
   "gender": "en",
   "ipa": "[d̥œ̞ːˀɐ̯]",
@@ -16997,6 +17383,7 @@
   "english": [
    "wrongly, wrong, erroneously"
   ],
+  "short": "wrongly, wrong, erroneously",
   "pos": "adv",
   "gender": null,
   "ipa": "[fʌˈkʰeɐ̯ˀd̥]",
@@ -17011,6 +17398,7 @@
    "complete",
    "drunk"
   ],
+  "short": "full",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈfulˀ]",
@@ -17080,6 +17468,7 @@
   "english": [
    "funnily"
   ],
+  "short": "funnily",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -17092,6 +17481,7 @@
   "english": [
    "to school, train"
   ],
+  "short": "to school, train",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊oːlə]",
@@ -17158,6 +17548,7 @@
   "english": [
    "behave"
   ],
+  "short": "behave",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢe̝ːˀ]",
@@ -17219,6 +17610,7 @@
    "to lose (a thing)",
    "to lose (a battle or a match)"
   ],
+  "short": "to lose",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtˢæːb̥ə]",
@@ -17285,6 +17677,7 @@
   "english": [
    "inside, indoors"
   ],
+  "short": "inside, indoors",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈenə]",
@@ -17299,6 +17692,7 @@
    "lady (adult female with a cultivated appearance)",
    "girlfriend"
   ],
+  "short": "lady, woman",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈd̥æːmə]",
@@ -17376,6 +17770,7 @@
    "bone (any part of the skeleton)",
    "sinecure (a position that requires little to no work but still gives an ample payment; a cushy job.)"
   ],
+  "short": "leg",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈb̥eˀn]",
@@ -17446,6 +17841,7 @@
    "fair, blond",
    "cheerful, sunny"
   ],
+  "short": "light, bright",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈlyˀs]",
@@ -17515,6 +17911,7 @@
   "english": [
    "bed (a piece of furniture to sleep on)"
   ],
+  "short": "bed",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈsɛ̝ŋˀ]",
@@ -17591,6 +17988,7 @@
    "to trouble, bother",
    "to care for, like (with the preposition om)"
   ],
+  "short": "to trouble, bother",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥ʁyðð̩]",
@@ -17653,6 +18051,7 @@
    "closely (with little or no distance)",
    "densely, thickly, tight, tightly, heavily (with a high density)"
   ],
+  "short": "closely",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈtˢɛd̥]",
@@ -17665,6 +18064,7 @@
   "english": [
    "behind"
   ],
+  "short": "behind",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈb̥æˀj]",
@@ -17677,6 +18077,7 @@
   "english": [
    "sister (woman or girl having the same parents)"
   ],
+  "short": "sister",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈsøsd̥ɐ]",
@@ -17752,6 +18153,7 @@
   "english": [
    "ever, at some time"
   ],
+  "short": "ever, at some time",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈnoːənˈsenə]",
@@ -17764,6 +18166,7 @@
   "english": [
    "to divide into pieces"
   ],
+  "short": "to divide into pieces",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥øɡ̊ə]",
@@ -17835,6 +18238,7 @@
    "to smoke (to inhale and exhale tobacco smoke, to do so regularly or habitually)",
    "to smoke (to preserve food with smoke)"
   ],
+  "short": "to smoke",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈʁyː.y]",
@@ -17904,6 +18308,7 @@
    "number",
    "track"
   ],
+  "short": "number",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈnɔmˀɐ]",
@@ -17980,6 +18385,7 @@
    "to worry (be a source of concern)",
    "to worry (be worried)"
   ],
+  "short": "to worry",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -18046,6 +18452,7 @@
   "english": [
    "ten"
   ],
+  "short": "ten",
   "pos": "num",
   "gender": null,
   "ipa": "[ˈtˢiˀ]",
@@ -18058,6 +18465,7 @@
   "english": [
    "to drill, bore"
   ],
+  "short": "to drill, bore",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -18124,6 +18532,7 @@
   "english": [
    "oak, oak tree (tree or wood)"
   ],
+  "short": "oak, oak tree",
   "pos": "noun",
   "gender": "en",
   "ipa": "[eːˀj]",
@@ -18199,6 +18608,7 @@
   "english": [
    "feed"
   ],
+  "short": "feed",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -18224,6 +18634,7 @@
   "english": [
    "to continue"
   ],
+  "short": "to continue",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfɒːd̥ˌsɛd̥ə]",
@@ -18293,6 +18704,7 @@
   "english": [
    "mister, Mr."
   ],
+  "short": "mister, Mr",
   "pos": "noun",
   "gender": null,
   "ipa": "[ˈhaɐ̯]",
@@ -18307,6 +18719,7 @@
    "phone number, telephone number (digits assigned to a telephone), abbreviated tlf.",
    "call, phone call, telephone call"
   ],
+  "short": "telephone",
   "pos": "noun",
   "gender": "en",
   "ipa": "[tˢeləˈfoːˀn]",
@@ -18382,6 +18795,7 @@
   "english": [
    "at home, home (in the place where one belongs, in a static position)"
   ],
+  "short": "at home, home",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈjɛmə]",
@@ -18394,6 +18808,7 @@
   "english": [
    "heart"
   ],
+  "short": "heart",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈjaɐ̯d̥ə]",
@@ -18471,6 +18886,7 @@
    "pass through",
    "cross"
   ],
+  "short": "pass, pass by",
   "pos": "verb",
   "gender": null,
   "ipa": "[pʰaˈseːˀɐ]",
@@ -18503,6 +18919,7 @@
    "Near or next to. Will stop at or be near something",
    "Visit"
   ],
+  "short": "Near or next to. Will stop at or be near",
   "pos": "prep",
   "gender": null,
   "ipa": null,
@@ -18515,6 +18932,7 @@
   "english": [
    "blood"
   ],
+  "short": "blood",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈb̥loˀð]",
@@ -18559,6 +18977,7 @@
   "english": [
    "though"
   ],
+  "short": "though",
   "pos": "conj",
   "gender": null,
   "ipa": null,
@@ -18578,6 +18997,7 @@
   "english": [
    "to start"
   ],
+  "short": "to start",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥ɑːd̥ə]",
@@ -18648,6 +19068,7 @@
    "hot, spicy",
    "strong (inflected strongly)"
   ],
+  "short": "strong",
   "pos": "adj",
   "gender": null,
   "ipa": null,
@@ -18719,6 +19140,7 @@
    "meaning (sense, significance)",
    "intention"
   ],
+  "short": "an opinion",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈmeːneŋ]",
@@ -18795,6 +19217,7 @@
    "to arrange",
    "to agree on"
   ],
+  "short": "to arrange",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɑwtˢæːˀlə]",
@@ -18861,6 +19284,7 @@
   "english": [
    "beechnut, beech mast"
   ],
+  "short": "beechnut, beech mast",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈb̥ɔ̝ːˀw]",
@@ -18929,6 +19353,7 @@
   "english": [
    "Expression of emotion."
   ],
+  "short": "Expression of emotion",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈkɛfd]",
@@ -18943,6 +19368,7 @@
    "seat",
    "position"
   ],
+  "short": "place",
   "pos": "noun",
   "gender": "en",
   "ipa": "[pl̥æs̺]",
@@ -19019,6 +19445,7 @@
    "wild",
    "fierce, ferocious"
   ],
+  "short": "wild",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈʋilˀ]",
@@ -19090,6 +19517,7 @@
    "through (in space, from the outside, through an opening or through a barrier)",
    "through, during (in time, from the beginning to the end)"
   ],
+  "short": "through",
   "pos": "prep",
   "gender": null,
   "ipa": "[ɡ̊ɛmˀm̩]",
@@ -19102,6 +19530,7 @@
   "english": [
    "to live, reside, dwell"
   ],
+  "short": "to live, reside, dwell",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥oːˀ]",
@@ -19162,6 +19591,7 @@
   "english": [
    "to make light, sexual advances; to act like lovers"
   ],
+  "short": "to make light, sexual advances",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈkʰaːɐsd̥ə]",
@@ -19229,6 +19659,7 @@
    "around",
    "about"
   ],
+  "short": "around",
   "pos": "prep",
   "gender": null,
   "ipa": "[ʌmˈkʰʁɛŋ]",
@@ -19242,6 +19673,7 @@
    "by",
    "at"
   ],
+  "short": "by",
   "pos": "prep",
   "gender": null,
   "ipa": "[að]",
@@ -19256,6 +19688,7 @@
    "through (into a or out of a space)",
    "through (successfully)"
   ],
+  "short": "through",
   "pos": "adv",
   "gender": null,
   "ipa": "[iɡ̊ɛmˀm̩]",
@@ -19270,6 +19703,7 @@
    "to dream (to hope, to wish)",
    "to dream (to daydream)"
   ],
+  "short": "to dream",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈd̥ʁɶmə]",
@@ -19338,6 +19772,7 @@
    "curtly",
    "shortly"
   ],
+  "short": "briefly",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈkʰɒːd̥]",
@@ -19351,6 +19786,7 @@
    "stupid, dense, dumb, thick, dim",
    "foolish, silly, daft"
   ],
+  "short": "stupid, dense, dumb, thick, dim",
   "pos": "adj",
   "gender": null,
   "ipa": "[d̥ɔmˀ]",
@@ -19420,6 +19856,7 @@
   "english": [
    "hundred (a hundred kroner bill)"
   ],
+  "short": "hundred",
   "pos": "noun",
   "gender": "en",
   "ipa": "[hunˀ]",
@@ -19441,6 +19878,7 @@
    "between",
    "among"
   ],
+  "short": "between",
   "pos": "prep",
   "gender": null,
   "ipa": "[ˈmɛlˀəm]",
@@ -19455,6 +19893,7 @@
    "tall (e.g. person, building, tree)",
    "loud (e.g. voice, noise)"
   ],
+  "short": "high",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈhʌjˀ]",
@@ -19524,6 +19963,7 @@
   "english": [
    "welcome (greeting given upon someone's arrival)"
   ],
+  "short": "welcome",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈʋelˌkʰʌmˀm̩]",
@@ -19536,6 +19976,7 @@
   "english": [
    "face (the part of the body)"
   ],
+  "short": "face",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈanˌseɡd̥]",
@@ -19611,6 +20052,7 @@
   "english": [
    "truth"
   ],
+  "short": "truth",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈsanˌheðˠˀ]",
@@ -19686,6 +20128,7 @@
   "english": [
    "A boss; person in charge, person who directly oversees the work being done"
   ],
+  "short": "A boss",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈɕeˀf]",
@@ -19762,6 +20205,7 @@
    "message",
    "order, instruction"
   ],
+  "short": "message",
   "pos": "noun",
   "gender": "en",
   "ipa": "[b̥eˈsɡ̊eˀð]",
@@ -19838,6 +20282,7 @@
    "to create, make",
    "to fuss, make a scene (usually of children, otherwise highly pejorative)"
   ],
+  "short": "to create, make",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊æːb̥ə]",
@@ -19907,6 +20352,7 @@
    "building",
    "block of flats, cottage"
   ],
+  "short": "house",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈhuˀs]",
@@ -19984,6 +20430,7 @@
    "to steer (to guide the course of)",
    "to restrain oneself"
   ],
+  "short": "to head, govern, rule, manage, control",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥yːɐ]",
@@ -20054,6 +20501,7 @@
    "endeavour, struggle (non-violent)",
    "game, match (of e.g. ball games)"
   ],
+  "short": "battle, struggle",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -20129,6 +20577,7 @@
   "english": [
    "to cure, to heal"
   ],
+  "short": "to cure, to heal",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɛːjə]",
@@ -20195,6 +20644,7 @@
    "to harm, damage",
    "to hurt, injure"
   ],
+  "short": "to harm, damage",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊æðð̩]",
@@ -20261,6 +20711,7 @@
   "english": [
    "to listen"
   ],
+  "short": "to listen",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlyɾə]",
@@ -20294,6 +20745,7 @@
    "simply - in the phrase slet og ret (“simply”)",
    "quite - in the phrase ikke slet så (“not quite as”)"
   ],
+  "short": "at all",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈslɛd̥]",
@@ -20306,6 +20758,7 @@
   "english": [
    "bad, unwell, poor"
   ],
+  "short": "bad, unwell, poor",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈd̥ɒːli]",
@@ -20375,6 +20828,7 @@
    "celebration",
    "festival"
   ],
+  "short": "party",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈfesd̥]",
@@ -20452,6 +20906,7 @@
    "odd",
    "strange"
   ],
+  "short": "peculiar",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈɑjn̩]",
@@ -20485,6 +20940,7 @@
    "to bring",
    "to publish (in the mass media)"
   ],
+  "short": "to bring",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥ʁæŋə]",
@@ -20555,6 +21011,7 @@
    "character",
    "figure"
   ],
+  "short": "person",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -20631,6 +21088,7 @@
    "stem",
    "chisel"
   ],
+  "short": "stem",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsd̥ɛmə]",
@@ -20696,6 +21154,7 @@
   "english": [
    "war (conflict involving organized use of arms)"
   ],
+  "short": "war",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈkʰʁ̥iˀ]",
@@ -20771,6 +21230,7 @@
    "scraps of food",
    "residue, remainder"
   ],
+  "short": "remnant, remainder, rest",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈʁasd̥]",
@@ -20798,6 +21258,7 @@
   "english": [
    "check"
   ],
+  "short": "check",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈtçɛɡ̊ə]",
@@ -20866,6 +21327,7 @@
    "to land (come to land with a ship)",
    "to land, end up (in a new state or at a new place, often unwillingly)"
   ],
+  "short": "to land",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -20936,6 +21398,7 @@
    "to hide, conceal (oneself).",
    "to save (a file)"
   ],
+  "short": "to hide, conceal",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈɡ̊ɛmə]",
@@ -21004,6 +21467,7 @@
   "english": [
    "agent (all senses)"
   ],
+  "short": "agent",
   "pos": "noun",
   "gender": "en",
   "ipa": null,
@@ -21081,6 +21545,7 @@
    "to feel, sense, notice",
    "to note, bear in mind (to observe something)"
   ],
+  "short": "to mark",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈmaɐ̯ɡ̊ə]",
@@ -21147,6 +21612,7 @@
   "english": [
    "captain"
   ],
+  "short": "captain",
   "pos": "noun",
   "gender": "en",
   "ipa": "[kʰɑb̥ˈtˢɑjˀn]",
@@ -21223,6 +21689,7 @@
    "mostly; for the most part",
    "most of the time"
   ],
+  "short": "mostly",
   "pos": "adv",
   "gender": null,
   "ipa": "/mest/",
@@ -21235,6 +21702,7 @@
   "english": [
    "sing (to produce harmonious sounds with one’s voice)"
   ],
+  "short": "sing",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsøŋŋ̍]",
@@ -21306,6 +21774,7 @@
    "to carry (to be transmitted; to travel)",
    "to bear (to be equipped with something)"
   ],
+  "short": "to carry",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥æːɐ]",
@@ -21380,6 +21849,7 @@
   "english": [
    "exactly"
   ],
+  "short": "exactly",
   "pos": "intj",
   "gender": null,
   "ipa": "[pʰʁ̥æˈsiˀs]",
@@ -21393,6 +21863,7 @@
    "choice",
    "election"
   ],
+  "short": "choice",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈʋælˀ]",
@@ -21462,6 +21933,7 @@
    "funny",
    "fun"
   ],
+  "short": "funny",
   "pos": "adj",
   "gender": null,
   "ipa": "[ɕɒwˀ]",
@@ -21531,6 +22003,7 @@
   "english": [
    "perfectly"
   ],
+  "short": "perfectly",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -21543,6 +22016,7 @@
   "english": [
    "six"
   ],
+  "short": "six",
   "pos": "num",
   "gender": null,
   "ipa": "[sɛɡ̊s]",
@@ -21555,6 +22029,7 @@
   "english": [
    "under the table; secretly, so as to avoid taxation"
   ],
+  "short": "under the table",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsoɐ̯d̥]",
@@ -21567,6 +22042,7 @@
   "english": [
    "empty"
   ],
+  "short": "empty",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈtˢʌmˀ]",
@@ -21636,6 +22112,7 @@
   "english": [
    "An intensifier."
   ],
+  "short": "An intensifier",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsɡ̊u]",
@@ -21670,6 +22147,7 @@
   "english": [
    "halt"
   ],
+  "short": "halt",
   "pos": "intj",
   "gender": null,
   "ipa": "[ˈhʌlˀd̥]",
@@ -21682,6 +22160,7 @@
   "english": [
    "prison (place of long-term confinement for those convicted of serious crimes)"
   ],
+  "short": "prison",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈfɛŋˀsl̩]",
@@ -21756,6 +22235,7 @@
   "english": [
    "love, affection"
   ],
+  "short": "love, affection",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈkʰɛɐ̯liˌhe̝ð̠˕ˠˀ]",
@@ -21800,6 +22280,7 @@
   "english": [
    "room; separate part of a building"
   ],
+  "short": "room",
   "pos": "noun",
   "gender": "et",
   "ipa": "[ˈʋaːɐlsə]",
@@ -21875,6 +22356,7 @@
   "english": [
    "handgun, pistol"
   ],
+  "short": "handgun, pistol",
   "pos": "noun",
   "gender": "en",
   "ipa": "[pʰiˈsd̥oːˀl]",
@@ -21952,6 +22434,7 @@
    "frank",
    "sincere, straight, square"
   ],
+  "short": "honest",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈæɐ̯li]",
@@ -22021,6 +22504,7 @@
   "english": [
    "almost, nearly"
   ],
+  "short": "almost, nearly",
   "pos": "adv",
   "gender": null,
   "ipa": "[fasd̥]",
@@ -22034,6 +22518,7 @@
    "pine (a tree of the genus Pinus)",
    "pinewood, deal (wood from a pine)"
   ],
+  "short": "pine",
   "pos": "noun",
   "gender": "en",
   "ipa": "[ˈfyɐ̯]",
@@ -22111,6 +22596,7 @@
    "suspect (to imagine or suppose (something) to be true without evidence)",
    "glimpse"
   ],
+  "short": "guess",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -22179,6 +22665,7 @@
    "to rush, dash",
    "to fly (steer an aircraft)"
   ],
+  "short": "to fly",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈfl̥yːʋə]",
@@ -22249,6 +22736,7 @@
    "to distill (an alcoholic beverage)",
    "to cremate (a dead body)"
   ],
+  "short": "to burn",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈb̥ʁanə",
@@ -22315,6 +22803,7 @@
   "english": [
    "live (as it happens)"
   ],
+  "short": "live",
   "pos": "adv",
   "gender": null,
   "ipa": null,
@@ -22329,6 +22818,7 @@
    "to wage (war)",
    "to lead (a life)"
   ],
+  "short": "to lead, guide",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈføːɐ]",
@@ -22398,6 +22888,7 @@
    "white",
    "blank"
   ],
+  "short": "white",
   "pos": "adj",
   "gender": null,
   "ipa": "[ˈʋiˀð̠˕ˠ]",
@@ -22467,6 +22958,7 @@
   "english": [
    "to explain"
   ],
+  "short": "to explain",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -22533,6 +23025,7 @@
   "english": [
    "to visit (to go and meet or see)"
   ],
+  "short": "to visit",
   "pos": "verb",
   "gender": null,
   "ipa": "[b̥eˈsøˀjə]",
@@ -22566,6 +23059,7 @@
    "to influence or train others (by behaviour)",
    "to precede"
   ],
+  "short": "to happen, to transpire",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -22635,6 +23129,7 @@
    "to forcibly remove (someone)",
    "to fire, dismiss, lay off"
   ],
+  "short": "to eliminate, make something disappear",
   "pos": "verb",
   "gender": null,
   "ipa": null,
@@ -22702,6 +23197,7 @@
    "to play",
    "to spawn"
   ],
+  "short": "to play",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈlɑːɪ]",
@@ -22772,6 +23268,7 @@
    "easily",
    "slightly"
   ],
+  "short": "lightly",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈlɛd̥]",
@@ -22784,6 +23281,7 @@
   "english": [
    "bloody"
   ],
+  "short": "bloody",
   "pos": "adv",
   "gender": null,
   "ipa": "[ˈsɡ̊iðð̩]",
@@ -22797,6 +23295,7 @@
    "to rush, hurry",
    "to hurry"
   ],
+  "short": "to rush, hurry",
   "pos": "verb",
   "gender": null,
   "ipa": "[ˈsɡ̊ønə]",
@@ -22864,6 +23363,7 @@
   "english": [
    "A million, 10⁶."
   ],
+  "short": "A million, 10⁶",
   "pos": "num",
   "gender": null,
   "ipa": "[miliˈoˀn]",

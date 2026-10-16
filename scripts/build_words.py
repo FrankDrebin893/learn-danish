@@ -5,6 +5,7 @@ Inputs (data/raw/, see README for download URLs):
   da_50k.txt           hermitdave/FrequencyWords, "word count" per line
 """
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -24,6 +25,14 @@ def is_form_entry(entry):
     return bool(senses) and all(
         s.get("form_of") or s.get("alt_of") or "form-of" in s.get("tags", []) for s in senses
     )
+
+
+def short_gloss(glosses):
+    """Quiz-sized translation: first gloss, parentheticals and trailing clauses removed."""
+    g = re.sub(r"\s*\([^)]*\)", "", glosses[0]).split(";")[0].strip(" ,.:")
+    if not g or len(g) > 40:
+        g = glosses[0].split(";")[0].split("(")[0].strip(" ,.:") or glosses[0]
+    return g[:40]
 
 
 def gender(entry):
@@ -87,6 +96,7 @@ def main():
             lemmas[(word, pos)] = {
                 "danish": word,
                 "english": glosses[:3],
+                "short": short_gloss(glosses),
                 "pos": pos,
                 "gender": gender(e),
                 "ipa": ipa(e),
