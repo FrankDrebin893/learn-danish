@@ -41,3 +41,18 @@ cd web && python -m http.server 8000   # open http://localhost:8000
 - Quiz answers use a shortened first gloss (`short`), which can be vague for function words.
 - No example sentences yet (Tatoeba: 66k Danish sentences via its links export).
 - Progress counts are stored in `localStorage` only and not yet used for spaced repetition.
+
+## Publishing on GitHub Pages
+
+`.github/workflows/pages.yml` deploys the `web/` folder on every push to `main`. One-time setup: repo
+Settings → Pages → Source: **GitHub Actions**. All URLs are relative, so it works under
+`https://<user>.github.io/<repo>/`.
+
+Before publishing: the audio comes from the unofficial `edge-tts` interface (personal use only). Regenerate
+`web/audio` with Azure Speech or Piper, or remove it, before making the repo public.
+
+## Design
+
+Royal Copenhagen blue-fluted porcelain: committed cobalt on blue-tinted white, dark mode follows the system.
+Schibsted Grotesk (self-hosted, `web/fonts`). Mobile-first: bottom tab bar, thumb-reachable full-width answer
+buttons, 44px targets, safe-area insets. Product context for design work is in `PRODUCT.md`.

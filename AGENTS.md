@@ -32,3 +32,4 @@ by frequency rank, so rebuild audio after any change that renumbers `words.json`
   footer in `web/index.html`, and put any published derived data under CC BY-SA 4.0.
 - The audio uses the unofficial `edge-tts` interface: personal use only. Use Azure Speech or Piper
   before publishing.
+- Pages deploy: `.github/workflows/pages.yml` publishes `web/`. Keep asset URLs relative. Fonts are self-hosted in `web/fonts`.
