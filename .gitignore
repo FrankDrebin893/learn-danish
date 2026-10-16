@@ -1,2 +1,5 @@
 data/raw/
 __pycache__/
+data/*.onnx
+data/*.onnx.json
+.impeccable/review/

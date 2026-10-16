@@ -19,6 +19,8 @@ function speak(word) {
 }
 const label = w => (w.gender ? `<span class="gender">${w.gender}</span>` : '') + esc(w.danish);
 const ICON_SPEAK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.500v5h3.500L12 18.500v-13L7.500 9.500zM15.500 9a4.200 4.200 0 0 1 0 6M18 6.500a8 8 0 0 1 0 11"/></svg>';
+const ICON_OK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg>';
+const ICON_NO = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
 const speakBtn = (w, light) => `<button class="speak${light ? ' light' : ''}" data-speak="${w.rank}" title="Listen" aria-label="Listen to ${esc(w.danish)}">${ICON_SPEAK}</button>`;
 app.addEventListener('click', e => {
   const b = e.target.closest('[data-speak]');
@@ -32,9 +34,10 @@ let timer = null;
 
 function renderSetup() {
   app.innerHTML = `
-    <div class="intro fade-in">
+    <div class="prompt-card intro-card fade-in">
       <h2>Ordforråd-quiz</h2>
       <p>Hear it, read it, pick the meaning. Words run from most to least common in Danish.</p>
+      <div class="facades" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
     </div>
     <div class="panel fade-in">
       <div class="setup-row">
@@ -44,8 +47,8 @@ function renderSetup() {
           <select id="range">${[100, 300, words.length].map(n => `<option value="${n}" ${n === cfg.range ? 'selected' : ''}>Top ${n} words</option>`).join('')}</select></div>
         <div class="wide"><label for="dir">Direction</label>
           <select id="dir">
-            <option value="da-en" ${cfg.dir === 'da-en' ? 'selected' : ''}>Danish → English (recognition)</option>
-            <option value="en-da" ${cfg.dir === 'en-da' ? 'selected' : ''}>English → Danish (production)</option>
+            <option value="da-en" ${cfg.dir === 'da-en' ? 'selected' : ''}>Danish to English (recognition)</option>
+            <option value="en-da" ${cfg.dir === 'en-da' ? 'selected' : ''}>English to Danish (production)</option>
             <option value="mixed" ${cfg.dir === 'mixed' ? 'selected' : ''}>Mixed</option>
           </select></div>
       </div>
@@ -110,8 +113,8 @@ function renderQuestion(fade) {
         ${q.options.map((o, k) => `<button class="opt" data-k="${k}"><span class="key">${k + 1}</span><span>${optText(o)}</span></button>`).join('')}
       </div>
     </div>
-    <div class="hint">Press 1–4, arrow keys or WASD to answer · any key skips the pause</div>`;
-  if (fade) requestAnimationFrame(() => document.getElementById('stage').classList.remove('out'));
+    <div class="hint">Press 1–4 to answer · any key skips the pause</div>`;
+  if (fade) setTimeout(() => document.getElementById('stage')?.classList.remove('out'), 20);
   app.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(+b.dataset.k));
   if (q.daToEn) speak(w);
 }
@@ -127,8 +130,9 @@ function answer(k) {
   else { quiz.streak = 0; if (!quiz.missed.includes(w)) quiz.missed.push(w); }
   app.querySelectorAll('.opt').forEach((b, idx) => {
     b.disabled = true;
-    if (q.options[idx].rank === w.rank) b.classList.add('correct');
-    else if (idx === k) b.classList.add('wrong');
+    const key = b.querySelector('.key');
+    if (q.options[idx].rank === w.rank) { b.classList.add('correct'); key.innerHTML = ICON_OK; }
+    else if (idx === k) { b.classList.add('wrong'); key.innerHTML = ICON_NO; }
     else b.classList.add('dim');
   });
   const v = document.getElementById('verdict');
@@ -191,7 +195,7 @@ function renderCards() {
       ${flipped ? `<ul>${w.english.map(e => `<li>${esc(e)}</li>`).join('')}</ul>${forms ? `<div class="forms">${esc(forms)}</div>` : ''}`
                 : '<div class="reveal">Tap to reveal</div>'}
     </div>
-    <div class="row2"><button class="ghost" id="prev">← Previous</button><button class="ghost" id="next">Next →</button></div>`;
+    <div class="row2"><button class="ghost btn-ico" id="prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>Previous</button><button class="ghost btn-ico" id="next">Next<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>`;
   const flip = () => { flipped = !flipped; renderCards(); document.getElementById('card').focus({ preventScroll: true }); };
   document.getElementById('card').onclick = flip;
   document.getElementById('card').onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } };
