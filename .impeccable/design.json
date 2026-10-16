@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T00:00:00Z",
+  "title": "Design System: Learn Danish",
+  "extensions": {
+    "colorMeta": {
+      "harbour-grey": { "role": "neutral", "displayName": "Harbour Grey", "canonical": "#eef2f4", "tonalRamp": ["#2b3338", "#4a565c", "#6b787f", "#8e9ba1", "#b0bbc0", "#cbd4d8", "#e0e6e9", "#eef2f4"] },
+      "harbour-tint": { "role": "neutral", "displayName": "Harbour Tint", "canonical": "#e1e8ee", "tonalRamp": ["#26303a", "#445261", "#657586", "#8797a8", "#a9b8c6", "#c4d0db", "#d6dfe7", "#e1e8ee"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "tonalRamp": ["#333333", "#555555", "#777777", "#999999", "#bbbbbb", "#dddddd", "#f0f0f0", "#ffffff"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#14233b", "tonalRamp": ["#14233b", "#2b3b54", "#44546d", "#5f6f88", "#7d8ca3", "#9eabc0", "#c3cddc", "#e6ebf2"] },
+      "muted": { "role": "neutral", "displayName": "Muted Slate", "canonical": "#55627a", "tonalRamp": ["#2a3345", "#3a4559", "#55627a", "#6f7c93", "#8a95a9", "#a9b2c2", "#c9cfda", "#e6e9ef"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#cfd8e0", "tonalRamp": ["#3a4650", "#566471", "#738290", "#92a0ac", "#adb9c3", "#c0cad3", "#cfd8e0", "#e8edf1"] },
+      "navy": { "role": "primary", "displayName": "Harbour Navy", "canonical": "#17315c", "tonalRamp": ["#0d1c36", "#17315c", "#264a85", "#3a63a8", "#5d82c0", "#8aa5d3", "#b8c9e5", "#e3eaf5"] },
+      "brick": { "role": "secondary", "displayName": "Brick", "canonical": "#b0402c", "tonalRamp": ["#4a1a11", "#7a2c1e", "#b0402c", "#cc5d49", "#dc8274", "#e8a89d", "#f2cdc7", "#fae9e6"] },
+      "ochre": { "role": "secondary", "displayName": "Ochre", "canonical": "#e9a82f", "tonalRamp": ["#4d3406", "#7d570c", "#b0801a", "#e9a82f", "#f0be5c", "#f5d38c", "#f9e5b9", "#fcf4de"] },
+      "teal": { "role": "secondary", "displayName": "Teal", "canonical": "#1d7773", "tonalRamp": ["#0a2e2c", "#124f4c", "#1d7773", "#2f9993", "#5bb4af", "#8accc8", "#b8e0dd", "#e1f3f2"] },
+      "harbour-blue": { "role": "secondary", "displayName": "Harbour Blue", "canonical": "#3c6fb0", "tonalRamp": ["#12243d", "#1f3d68", "#2c5589", "#3c6fb0", "#6890c4", "#95b0d6", "#c0d0e8", "#e5ecf6"] },
+      "correct": { "role": "status", "displayName": "Correct Green", "canonical": "#156f43", "tonalRamp": ["#082e1c", "#0e4a2d", "#156f43", "#228b57", "#4fa97e", "#82c5a3", "#b5dcc7", "#e0f1e8"] },
+      "wrong": { "role": "status", "displayName": "Wrong Red", "canonical": "#9d1c14", "tonalRamp": ["#3f0b07", "#6a120d", "#9d1c14", "#bc3a31", "#d06b63", "#e19a94", "#eec6c2", "#f8e6e4"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Word", "purpose": "The Danish word on the prompt card and flashcard." },
+      "headline": { "displayName": "Screen title", "purpose": "Screen titles, balanced wrap." },
+      "score": { "displayName": "Score", "purpose": "Quiz result figure." },
+      "body": { "displayName": "Body", "purpose": "Running and support text." },
+      "label": { "displayName": "Label", "purpose": "Form labels and tab labels." }
+    },
+    "shadows": [
+      { "name": "soft-lift", "value": "0 1px 2px rgb(20 35 59 / .08), 0 10px 24px -10px rgb(20 35 59 / .22)", "purpose": "Panels and facade tiles." },
+      { "name": "state-ring", "value": "0 0 0 3px var(--paper), 0 0 0 6px var(--ink)", "purpose": "Answered tile, correct or wrong." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(.2,.8,.2,1)", "purpose": "Press, hover lift, progress fill, entry rise (150-350ms)." },
+      { "name": "rise", "value": "350ms translateY(8px) to 0 with fade", "purpose": "Content entry. Disabled under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "setup-two-col", "value": "520px" },
+      { "name": "options-2x2", "value": "560px" },
+      { "name": "tabs-inline", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Gabled Prompt Card",
+      "kind": "card",
+      "refersTo": "prompt-card",
+      "description": "Navy house card with stepped gable holding the Danish word and speaker.",
+      "html": "<div class=\"ds-prompt\"><div class=\"ds-p\">Danish word</div><div class=\"ds-big\">en hund</div></div>",
+      "css": ".ds-prompt{position:relative;background:#17315c;color:#fff;border-radius:6px 6px 22px 22px;margin-top:34px;padding:26px 20px 22px;text-align:center;min-height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Schibsted Grotesk',system-ui,sans-serif}.ds-prompt::before,.ds-prompt::after{content:'';position:absolute;background:#17315c;left:50%;transform:translateX(-50%)}.ds-prompt::before{width:62%;height:10px;top:-10px;border-radius:6px 6px 0 0}.ds-prompt::after{width:30%;height:10px;top:-20px;border-radius:6px 6px 0 0}.ds-p{font-size:.8rem;font-weight:600;color:rgb(255 255 255 / .8)}.ds-big{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;line-height:1.1;margin:8px 0 4px}"
+    },
+    {
+      "name": "Facade Tile",
+      "kind": "custom",
+      "refersTo": "facade-tile-brick",
+      "description": "Answer tile with state-mark cell; one of four house colours.",
+      "html": "<button class=\"ds-opt\"><span class=\"ds-key\">B</span><span>dog</span></button>",
+      "css": ".ds-opt{display:flex;align-items:center;gap:12px;min-height:64px;width:100%;padding:12px 14px;text-align:left;font:700 1.0625rem/1.25 'Schibsted Grotesk',system-ui,sans-serif;border:0;border-radius:14px;background:#b0402c;color:#fff;cursor:pointer;box-shadow:0 1px 2px rgb(20 35 59 / .08),0 10px 24px -10px rgb(20 35 59 / .22);transition:transform .15s cubic-bezier(.2,.8,.2,1)}.ds-opt:hover{transform:translateY(-2px)}.ds-opt:active{transform:scale(.985)}.ds-opt:focus-visible{outline:3px solid #14233b;outline-offset:3px}.ds-key{flex:none;display:inline-grid;place-items:center;width:32px;height:32px;border-radius:6px;background:#fff;color:#14233b;font-size:.9rem;font-weight:800}"
+    },
+    {
+      "name": "State-Mark Cell (correct)",
+      "kind": "custom",
+      "refersTo": "state-mark-cell",
+      "description": "Fixed white cell that holds a tick or cross after answering.",
+      "html": "<span class=\"ds-cell\"><svg viewBox=\"0 0 24 24\"><path d=\"M5 12l5 5 9-10\"/></svg></span>",
+      "css": ".ds-cell{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:6px;background:#fff;color:#0f6b3f}.ds-cell svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Brick full-width call to action.",
+      "html": "<button class=\"ds-btn\">Start quiz</button>",
+      "css": ".ds-btn{width:100%;min-height:52px;padding:0 18px;border:0;border-radius:14px;font:700 1.0625rem 'Schibsted Grotesk',system-ui,sans-serif;background:#b0402c;color:#fff;cursor:pointer;transition:transform .15s cubic-bezier(.2,.8,.2,1),filter .15s}.ds-btn:hover{filter:brightness(1.1)}.ds-btn:active{transform:scale(.98)}.ds-btn:focus-visible{outline:3px solid #14233b;outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary outlined action.",
+      "html": "<button class=\"ds-ghost\">Skip</button>",
+      "css": ".ds-ghost{min-height:48px;padding:0 16px;border:1.5px solid #cfd8e0;border-radius:14px;background:transparent;color:#14233b;font:600 1.0625rem 'Schibsted Grotesk',system-ui,sans-serif;cursor:pointer}.ds-ghost:hover{border-color:#17315c}.ds-ghost:active{transform:scale(.98)}.ds-ghost:focus-visible{outline:3px solid #14233b;outline-offset:3px}"
+    },
+    {
+      "name": "Tab",
+      "kind": "nav",
+      "refersTo": "tab-active",
+      "description": "Pill navigation tab; active is navy.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab ds-active\">Quiz</button><button class=\"ds-tab\">Cards</button></div>",
+      "css": ".ds-tabs{display:flex;gap:4px}.ds-tab{min-height:44px;padding:0 16px;border:0;border-radius:999px;background:transparent;color:#55627a;font:600 .95rem 'Schibsted Grotesk',system-ui,sans-serif;cursor:pointer}.ds-tab:hover{color:#14233b}.ds-tab.ds-active{background:#17315c;color:#fff}.ds-tab:focus-visible{outline:3px solid #14233b;outline-offset:3px}"
+    },
+    {
+      "name": "Select",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Setup dropdown.",
+      "html": "<select class=\"ds-select\"><option>All words</option></select>",
+      "css": ".ds-select{width:100%;min-height:48px;padding:0 14px;background:#eef2f4;color:#14233b;border:1.5px solid #cfd8e0;border-radius:12px;font:inherit}.ds-select:focus-visible{border-color:#17315c;outline:3px solid #14233b;outline-offset:1px}"
+    },
+    {
+      "name": "Streak Pill",
+      "kind": "chip",
+      "refersTo": "facade-tile-ochre",
+      "description": "Ochre pill with dark text.",
+      "html": "<span class=\"ds-streak\">3 in a row</span>",
+      "css": ".ds-streak{display:inline-flex;align-items:center;gap:6px;background:#e9a82f;color:#2a1d00;border-radius:999px;padding:2px 12px;font:800 .8rem 'Schibsted Grotesk',system-ui,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Nyhavn Facade",
+    "overview": "The interface borrows the painted harbour-front houses of Nyhavn. A cool harbour-grey ground holds a navy house card crowned with a stepped gable, and the answers are flat, saturated facade-coloured tiles. Each tile is one painted house: ochre, brick, teal, harbour blue. The palette is cool and mineral with four warm-to-cool accents, and it deliberately avoids the cream, serif and flag-red language-app default.\n\nDensity is phone-first and thumb-sized: one question per screen, full-width tiles, 44px minimum targets, a fixed bottom tab bar on phones. Type is a single geometric grotesk at heavy weights for words and quiet weights for everything else. The answer is communicated by a mark that holds in a fixed white cell, never by colour alone.",
+    "keyCharacteristics": [
+      "Cool harbour-grey ground, navy anchor, four facade accents.",
+      "One typeface (Schibsted Grotesk), weight 800 for words and numbers.",
+      "Gabled navy prompt card as the single signature silhouette.",
+      "Flat saturated tiles with a soft navy-tinted shadow; no gradients.",
+      "State is a tick or cross inside a fixed white cell, plus a ring and strike-through.",
+      "Light and dark schemes, both following the system preference."
+    ],
+    "rules": [
+      { "name": "The Four Houses Rule", "body": "Tile colours are assigned by position (ochre, brick, teal, harbour blue) and never carry meaning. Meaning belongs to the state-mark cell.", "section": "colors" },
+      { "name": "The Brick Is For Action Rule", "body": "Brick is the single call-to-action colour; it is not used for errors.", "section": "colors" },
+      { "name": "The Weight Contrast Rule", "body": "Words and numbers are 800; everything else is 400 to 700. No intermediate display weights.", "section": "typography" },
+      { "name": "The Ring Plus Mark Rule", "body": "An answered tile shows a double ring, a glyph in the state-mark cell, and (when wrong) a struck-through label; unanswered tiles dim to 40% opacity. Colour alone never signals correctness.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the ground harbour-grey and the anchor navy; use the four houses only for answer tiles and small facade ornaments.",
+      "Do pair every correctness signal with a glyph in the state-mark cell, a ring, and a strike-through on wrong.",
+      "Do keep touch targets at 44px or more and the text on ochre dark.",
+      "Do use Schibsted Grotesk at 800 for words and numbers, with negative tracking at large sizes.",
+      "Do use a 3px ink focus ring (ochre in dark) with 3px offset."
+    ],
+    "donts": [
+      "Don't use cream grounds, serif display faces, or flag-red as a brand colour.",
+      "Don't let tile colour imply right or wrong.",
+      "Don't put white text on ochre.",
+      "Don't add gradients or hard offset shadows; depth is the soft lift and the state ring.",
+      "Don't make the state-mark cell resize or move when state changes."
+    ]
+  }
+}

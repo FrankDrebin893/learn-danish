@@ -2,22 +2,39 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Learn Danish</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lær Dansk · Danish vocabulary trainer</title>
+<meta name="description" content="Learn the 500 most common Danish words with a quiz, flashcards and synthetic Danish audio. Free, no sign-up.">
+<meta name="theme-color" content="#17315c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1827" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Lær Dansk">
+<meta property="og:description" content="Learn the 500 most common Danish words with a quiz, flashcards and audio.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/sg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
-<header>
-  <h1>Lær Dansk</h1>
-  <nav>
-    <button data-tab="quiz" class="tab active">Quiz</button>
-    <button data-tab="learn" class="tab">Cards</button>
+<header class="top">
+  <a class="brand" href="./" aria-label="Lær Dansk, home">
+    <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.500 21V10l3-2.500V5l2.500-2 2.500 2v2.500l3 2.500V21zM8 12.500h2m4 0h2M8 17h2m4 0h2"/></svg>
+    <span>Lær Dansk</span>
+  </a>
+  <nav class="tabs" aria-label="Mode">
+    <button data-tab="quiz" class="tab active" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.500 9a2.600 2.600 0 1 1 3.600 2.400c-.8.400-1.100.900-1.100 1.800M12 17h.01"/><circle cx="12" cy="12" r="9.500"/></svg>
+      <span>Quiz</span>
+    </button>
+    <button data-tab="learn" class="tab">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.500" y="6" width="17" height="12" rx="2.500"/><path d="M7 3.500h10"/></svg>
+      <span>Cards</span>
+    </button>
   </nav>
 </header>
-<main id="app"></main>
+<main id="app" aria-live="polite"><noscript>This trainer needs JavaScript.</noscript></main>
 <footer>
   Definitions and forms: English Wiktionary via kaikki.org (CC BY-SA). Frequency: OpenSubtitles via
-  hermitdave/FrequencyWords (CC BY-SA 4.0). Audio: Microsoft neural voice da-DK-ChristelNeural.
+  hermitdave/FrequencyWords (CC BY-SA 4.0). Audio: Piper da_DK-talesyntese voice (CC0 training data, Norwegian Language Bank).
 </footer>
 <script src="app.js"></script>
 </body>

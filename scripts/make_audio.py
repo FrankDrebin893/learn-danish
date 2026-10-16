@@ -1,42 +1,43 @@
-"""Pre-generate Danish pronunciation audio (web/audio/<rank>.mp3) with a neural voice.
+"""Pre-generate Danish pronunciation audio (web/audio/<rank>.mp3) with Piper (offline, MIT-licensed engine).
 
-Uses the `edge-tts` package (Microsoft Edge's read-aloud voices, da-DK-ChristelNeural). That is an
-unofficial interface, fine for a personal app; for anything public use Azure Speech or Piper.
-Existing files are skipped, so it is safe to re-run after growing words.json.
+Voice: da_DK-talesyntese-medium (trained on the CC0 Norwegian Language Bank dataset), so the audio
+is safe to publish. Needs `pip install piper-tts`, ffmpeg on PATH, and the voice files:
+
+    curl -L -o data/da.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/da/da_DK/talesyntese/medium/da_DK-talesyntese-medium.onnx
+    curl -L -o data/da.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/da/da_DK/talesyntese/medium/da_DK-talesyntese-medium.onnx.json
+
+Usage: python scripts/make_audio.py [path/to/voice.onnx]. Existing files are skipped.
 """
-import asyncio
 import json
+import subprocess
 import sys
+import wave
+from io import BytesIO
 from pathlib import Path
 
-import edge_tts
+from piper import PiperVoice
 
 ROOT = Path(__file__).resolve().parent.parent
-VOICE = sys.argv[1] if len(sys.argv) > 1 else "da-DK-ChristelNeural"
+MODEL = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data/da.onnx"
 OUT = ROOT / "web/audio"
 
 
-async def one(sem, rank, text):
-    path = OUT / f"{rank}.mp3"
-    if path.exists() and path.stat().st_size > 0:
-        return
-    async with sem:
-        for attempt in range(3):
-            try:
-                await edge_tts.Communicate(text, VOICE, rate="-10%").save(str(path))
-                return
-            except Exception as exc:  # network hiccup: retry
-                if attempt == 2:
-                    print(f"failed {rank} {text}: {exc}")
-                await asyncio.sleep(1 + attempt)
-
-
-async def main():
+def main():
     OUT.mkdir(exist_ok=True)
+    voice = PiperVoice.load(str(MODEL))
     words = json.loads((ROOT / "web/words.json").read_text(encoding="utf-8"))
-    sem = asyncio.Semaphore(6)
-    await asyncio.gather(*(one(sem, w["rank"], w["danish"]) for w in words))
+    for w in words:
+        path = OUT / f"{w['rank']}.mp3"
+        if path.exists() and path.stat().st_size > 0:
+            continue
+        buf = BytesIO()
+        with wave.open(buf, "wb") as f:
+            voice.synthesize_wav(w["danish"], f)
+        subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-i", "pipe:0", "-ac", "1", "-b:a", "48k", str(path)],
+            input=buf.getvalue(), check=True,
+        )
     print(f"audio ready for {len(list(OUT.glob('*.mp3')))} words")
 
 
-asyncio.run(main())
+main()
