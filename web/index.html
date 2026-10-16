@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn Danish</title>
+<style>
+  :root { --bg:#faf7f2; --fg:#1d1b19; --muted:#6b645c; --card:#fff; --accent:#c8102e; --line:#e4ddd2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17150f; --fg:#f1ece4; --muted:#a39b8f; --card:#221f18; --accent:#ff6b7f; --line:#3a352b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.5 system-ui, sans-serif;
+         display:flex; flex-direction:column; align-items:center; min-height:100vh; padding:24px 16px; }
+  main { width:100%; max-width:480px; }
+  h1 { font-size:1rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:32px 24px;
+          min-height:300px; text-align:center; cursor:pointer; user-select:none; }
+  .rank { color:var(--muted); font-size:.85rem; font-variant-numeric:tabular-nums; }
+  .word { font-size:2.4rem; font-weight:650; margin:12px 0 4px; }
+  .gender { color:var(--accent); font-size:1rem; font-weight:600; margin-right:.3em; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  .answer { margin-top:20px; text-align:left; }
+  .answer li { margin:4px 0; }
+  .forms { margin-top:12px; color:var(--muted); font-size:.9rem; }
+  .hint { color:var(--muted); margin-top:60px; }
+  .row { display:flex; gap:8px; margin-top:12px; }
+  button { flex:1; padding:12px; font:inherit; border-radius:10px; border:1px solid var(--line);
+           background:var(--card); color:var(--fg); cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  footer { margin-top:auto; padding-top:24px; color:var(--muted); font-size:.75rem; text-align:center; max-width:480px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Learn Danish · <span id="progress"></span></h1>
+  <div class="card" id="card" tabindex="0" role="button" aria-label="Flip card"></div>
+  <div class="row">
+    <button id="speak">🔊 Listen</button>
+    <button id="again">Again</button>
+    <button id="know">Know it</button>
+  </div>
+</main>
+<footer>
+  Definitions and forms: English Wiktionary via kaikki.org (CC BY-SA). Frequency: OpenSubtitles via
+  hermitdave/FrequencyWords (CC BY-SA 4.0).
+</footer>
+<script>
+const $ = id => document.getElementById(id);
+let words = [], i = 0, flipped = false;
+const known = new Set(JSON.parse(localStorage.getItem('known') || '[]'));
+
+function queue() { return words.filter(w => !known.has(w.rank)); }
+function current() { return queue()[i % Math.max(queue().length, 1)]; }
+
+function render() {
+  const w = current();
+  $('progress').textContent = `${known.size} / ${words.length} known`;
+  if (!w) { $('card').innerHTML = '<p class="word">🎉</p><p class="meta">All words known.</p>'; return; }
+  const forms = [...new Set(w.forms.map(f => f.form))].slice(0, 6).join(', ');
+  $('card').innerHTML = `
+    <div class="rank">#${w.rank}</div>
+    <div class="word">${w.gender ? `<span class="gender">${w.gender}</span>` : ''}${w.danish}</div>
+    <div class="meta">${w.pos}${w.ipa ? ' · ' + w.ipa : ''}</div>` +
+    (flipped
+      ? `<ul class="answer">${w.english.map(e => `<li>${e}</li>`).join('')}</ul>` +
+        (forms ? `<div class="forms">${forms}</div>` : '')
+      : '<div class="hint">tap to reveal</div>');
+}
+
+function next(markKnown) {
+  const w = current();
+  if (markKnown && w) { known.add(w.rank); localStorage.setItem('known', JSON.stringify([...known])); }
+  else i++;
+  flipped = false; render();
+}
+
+$('card').onclick = () => { flipped = !flipped; render(); };
+$('know').onclick = () => next(true);
+$('again').onclick = () => next(false);
+$('speak').onclick = () => {
+  const w = current(); if (!w) return;
+  const u = new SpeechSynthesisUtterance(w.danish); u.lang = 'da-DK';
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+};
+
+fetch('words.json').then(r => r.json()).then(d => { words = d; render(); });
+</script>
+</body>
+</html>
